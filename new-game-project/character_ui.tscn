@@ -1,0 +1,581 @@
+[gd_scene load_steps=50 format=3 uid="uid://bxulyww24pab"]
+
+[ext_resource type="Texture2D" uid="uid://83kakmyogpg" path="res://globe_idle.webp" id="1_ha2wr"]
+[ext_resource type="Texture2D" uid="uid://ct5vy3spgtivs" path="res://D2RUI_BottomBar.png" id="1_yawyt"]
+[ext_resource type="Texture2D" uid="uid://ducc72hakmjs1" path="res://bglobe_idle.webp" id="2_x2v3r"]
+[ext_resource type="Texture2D" uid="uid://bmidv1mawyx5e" path="res://asset/CaptainCatSparrow/SpellIconsVolume_2/Barbarian/Icons/Barbarian_13.png" id="4_yc455"]
+[ext_resource type="Texture2D" uid="uid://ckj2mdlu5yh34" path="res://asset/CaptainCatSparrow/SpellIconsVolume_2/Barbarian/Icons/Barbarian_20.png" id="5_lao5n"]
+[ext_resource type="Texture2D" uid="uid://bn5wl8eb1t685" path="res://asset/CaptainCatSparrow/SpellIconsVolume_2/Barbarian/Icons/Barbarian_24.png" id="6_u58tw"]
+[ext_resource type="Texture2D" uid="uid://j44yyqs64pg3" path="res://asset/CaptainCatSparrow/SpellIconsVolume_2/Barbarian/Icons/Barbarian_32.png" id="7_uwxmk"]
+[ext_resource type="Texture2D" uid="uid://b5tbcuskr5udu" path="res://asset/CaptainCatSparrow/SpellIconsVolume_2/Barbarian/Icons/Barbarian_39.png" id="8_iokci"]
+[ext_resource type="Texture2D" uid="uid://bmf6opoodp3du" path="res://asset/CaptainCatSparrow/SpellIconsVolume_2/Barbarian/Icons/Barbarian_37.png" id="9_uphpj"]
+[ext_resource type="Texture2D" uid="uid://dl1rj08woq8lf" path="res://asset/CaptainCatSparrow/SpellIconsVolume_2/Barbarian/Icons/Barbarian_14.png" id="10_kctin"]
+[ext_resource type="Texture2D" uid="uid://2aefaxrl8n75" path="res://asset/CaptainCatSparrow/SpellIconsVolume_2/Barbarian/Icons/Barbarian_16.png" id="11_vs1qb"]
+[ext_resource type="Texture2D" uid="uid://lq6mb7qmovyq" path="res://asset/CaptainCatSparrow/SpellIconsVolume_2/Barbarian/Icons/Barbarian_15.png" id="12_50gf1"]
+[ext_resource type="Texture2D" uid="uid://c4ggdcsl2vbnl" path="res://asset/CaptainCatSparrow/SpellIconsVolume_2/Barbarian/Icons/Barbarian_29.png" id="13_syvs8"]
+[ext_resource type="Texture2D" uid="uid://bpeswvv22i4em" path="res://asset/CaptainCatSparrow/SpellIconsVolume_2/Barbarian/Icons/Barbarian_30.png" id="14_k40tv"]
+[ext_resource type="Texture2D" uid="uid://blg5i1st3n0r0" path="res://asset/CaptainCatSparrow/SpellIconsVolume_2/Barbarian/Icons/Barbarian_33.png" id="15_eouc8"]
+[ext_resource type="Texture2D" uid="uid://cjapy83rsb4sv" path="res://asset/diablo-skull.png" id="16_syvs8"]
+[ext_resource type="Texture2D" uid="uid://dtwxbsff5atke" path="res://New folder/treasure/fontbolt__6_-removebg-preview.png" id="17_80l8d"]
+[ext_resource type="Texture2D" uid="uid://nhxw5ga3tbf1" path="res://New folder/treasure/item-980000201_v35822.png" id="17_605ta"]
+[ext_resource type="Script" uid="uid://ddcdvpcb6aem7" path="res://sprite_2d.gd" id="17_k40tv"]
+[ext_resource type="Script" uid="uid://bjfcp54igst4e" path="res://event_UI_button.gd" id="17_ri72p"]
+[ext_resource type="Texture2D" uid="uid://bsj1jltjrknko" path="res://New folder/treasure/item-960000012_v35822.png" id="18_80l8d"]
+[ext_resource type="Texture2D" uid="uid://b6we4f0dnoxcb" path="res://asset/arrow.png" id="18_eouc8"]
+[ext_resource type="Texture2D" uid="uid://dlqd4m7by1wb2" path="res://New folder/Dark.png" id="19_dcfor"]
+[ext_resource type="Script" uid="uid://s5vttgpdnx2s" path="res://button.gd" id="19_k40tv"]
+[ext_resource type="Texture2D" uid="uid://b0lasj2pk7wtr" path="res://New folder/treasure/fontbolt (8).png" id="19_s81o3"]
+[ext_resource type="Texture2D" uid="uid://b8je1i0bvg4ja" path="res://New folder/treasure/item-950001501_v35822.png" id="20_72xvy"]
+[ext_resource type="Texture2D" uid="uid://b383naovu6asu" path="res://New folder/Light.png" id="20_bl1y6"]
+[ext_resource type="Script" uid="uid://bbv1a35cjhsdg" path="res://button_2.gd" id="20_s7sfk"]
+[ext_resource type="Texture2D" uid="uid://df4lnq5gbybia" path="res://New folder/treasure/fontbolt (10).png" id="21_fxyk1"]
+[ext_resource type="Texture2D" uid="uid://i7tk2puq86qg" path="res://New folder/Normal.png" id="21_px3b4"]
+[ext_resource type="FontFile" uid="uid://dg0whh4ceykhf" path="res://Carlito-Regular.ttf" id="22_x3qr3"]
+[ext_resource type="Texture2D" uid="uid://dfgiw5osje52i" path="res://New folder/treasure/fontbolt (9).png" id="23_kc01s"]
+[ext_resource type="Texture2D" uid="uid://tlpxblsk11ih" path="res://New folder/mobilemain_v36172 (1).png" id="23_qgtxt"]
+[ext_resource type="Script" uid="uid://cowu8tsfywwug" path="res://sprite_2d_2.gd" id="24_3a7ek"]
+[ext_resource type="Texture2D" uid="uid://b3o5juhi44k72" path="res://New folder/treasure/foreshow1_v40469.png" id="24_e1ewf"]
+[ext_resource type="Script" uid="uid://dbvke3ygansd0" path="res://to_npc.gd" id="24_wsytr"]
+[ext_resource type="Texture2D" uid="uid://clf2y3bqdpeeb" path="res://New folder/treasure/fontbolt (11).png" id="25_4oqig"]
+[ext_resource type="Texture2D" uid="uid://uxbm7emibpw5" path="res://New folder/treasure/mobilemain_v36172 (3).png" id="26_kc01s"]
+[ext_resource type="Texture2D" uid="uid://djwinil0n5pek" path="res://New folder/fontbolt (4).png" id="26_yxy32"]
+[ext_resource type="Texture2D" uid="uid://cmewad0laso22" path="res://New folder/treasure/mobilemain_v36172 (4).png" id="27_e1ewf"]
+[ext_resource type="Script" uid="uid://vqle32gcptcd" path="res://close_button.gd" id="28_bl1y6"]
+[ext_resource type="Texture2D" uid="uid://qwnnmd228nj4" path="res://New folder/treasure/heavenchanceentrance_v35822 (1).png" id="31_s81o3"]
+[ext_resource type="Texture2D" uid="uid://436t4hdrtunv" path="res://153-1531677_red-dot-icon-png.png" id="35_e1ewf"]
+[ext_resource type="Shader" uid="uid://i02r7lombd8t" path="res://character_ui.gdshader" id="40_p3f20"]
+[ext_resource type="Texture2D" uid="uid://bbxtscs30m1fc" path="res://asset/GUI_Parts/Gui_parts/button_frame.png" id="41_itceh"]
+[ext_resource type="Script" uid="uid://dd72wk2x4c6yq" path="res://popup.gd" id="43_645h0"]
+[ext_resource type="Texture2D" uid="uid://blcuaepf12oxd" path="res://heavenchanceentrance_v35822 (3).png" id="44_ri72p"]
+[ext_resource type="PackedScene" uid="uid://c513i5c4te5gn" path="res://Scene/health_boss.tscn" id="46_fl353"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_2mm0q"]
+shader = ExtResource("40_p3f20")
+shader_parameter/speed = 1.0
+shader_parameter/glow_width = 0.15
+shader_parameter/glow_color = Color(1, 0.8, 0.2, 1)
+
+[node name="Character_UI" type="CanvasLayer"]
+
+[node name="Control2" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="Control" type="Control" parent="Control2"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 10.0
+offset_bottom = 10.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="HPmana" type="Control" parent="Control2/Control"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="TextureRect2" type="TextureRect" parent="Control2/Control/HPmana"]
+layout_mode = 0
+offset_left = 1020.0
+offset_top = 559.0
+offset_right = 1648.0
+offset_bottom = 912.0
+scale = Vector2(0.45, 0.45)
+texture = ExtResource("2_x2v3r")
+
+[node name="TextureRect3" type="TextureRect" parent="Control2/Control/HPmana"]
+layout_mode = 0
+offset_left = 96.0
+offset_top = 559.0
+offset_right = 932.0
+offset_bottom = 1028.0
+scale = Vector2(0.45, 0.45)
+texture = ExtResource("1_ha2wr")
+
+[node name="TextureRect" type="TextureRect" parent="Control2/Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -667.0
+offset_top = -192.0
+offset_right = 1381.0
+offset_bottom = 320.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.7, 0.7)
+mouse_filter = 2
+texture = ExtResource("1_yawyt")
+
+[node name="Skill" type="Control" parent="Control2/Control"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="TextureRect6" type="TextureRect" parent="Control2/Control/Skill"]
+layout_mode = 0
+offset_left = 587.0
+offset_top = 661.0
+offset_right = 1099.0
+offset_bottom = 1173.0
+scale = Vector2(0.08, 0.08)
+texture = ExtResource("5_lao5n")
+
+[node name="TextureRect7" type="TextureRect" parent="Control2/Control/Skill"]
+layout_mode = 0
+offset_left = 408.0
+offset_top = 661.0
+offset_right = 920.0
+offset_bottom = 1173.0
+scale = Vector2(0.08, 0.08)
+texture = ExtResource("6_u58tw")
+
+[node name="TextureRect8" type="TextureRect" parent="Control2/Control/Skill"]
+layout_mode = 0
+offset_left = 468.0
+offset_top = 661.0
+offset_right = 980.0
+offset_bottom = 1173.0
+scale = Vector2(0.08, 0.08)
+texture = ExtResource("7_uwxmk")
+
+[node name="TextureRect9" type="TextureRect" parent="Control2/Control/Skill"]
+layout_mode = 0
+offset_left = 349.0
+offset_top = 661.0
+offset_right = 861.0
+offset_bottom = 1173.0
+scale = Vector2(0.08, 0.08)
+texture = ExtResource("8_iokci")
+
+[node name="TextureRect10" type="TextureRect" parent="Control2/Control/Skill"]
+layout_mode = 0
+offset_left = 527.0
+offset_top = 661.0
+offset_right = 1039.0
+offset_bottom = 1173.0
+scale = Vector2(0.08, 0.08)
+texture = ExtResource("9_uphpj")
+
+[node name="TextureRect11" type="TextureRect" parent="Control2/Control/Skill"]
+layout_mode = 0
+offset_left = 289.0
+offset_top = 662.0
+offset_right = 801.0
+offset_bottom = 1174.0
+scale = Vector2(0.08, 0.08)
+texture = ExtResource("4_yc455")
+
+[node name="TextureRect12" type="TextureRect" parent="Control2/Control/Skill"]
+layout_mode = 0
+offset_left = 646.0
+offset_top = 661.0
+offset_right = 1158.0
+offset_bottom = 1173.0
+scale = Vector2(0.08, 0.08)
+texture = ExtResource("10_kctin")
+
+[node name="TextureRect13" type="TextureRect" parent="Control2/Control/Skill"]
+layout_mode = 0
+offset_left = 706.0
+offset_top = 662.0
+offset_right = 1218.0
+offset_bottom = 1174.0
+scale = Vector2(0.08, 0.08)
+texture = ExtResource("11_vs1qb")
+
+[node name="TextureRect14" type="TextureRect" parent="Control2/Control/Skill"]
+layout_mode = 0
+offset_left = 765.0
+offset_top = 662.0
+offset_right = 1277.0
+offset_bottom = 1174.0
+scale = Vector2(0.08, 0.08)
+texture = ExtResource("12_50gf1")
+
+[node name="TextureRect15" type="TextureRect" parent="Control2/Control/Skill"]
+layout_mode = 0
+offset_left = 824.0
+offset_top = 661.0
+offset_right = 1336.0
+offset_bottom = 1173.0
+scale = Vector2(0.08, 0.08)
+texture = ExtResource("13_syvs8")
+
+[node name="TextureRect16" type="TextureRect" parent="Control2/Control/Skill"]
+layout_mode = 0
+offset_left = 884.0
+offset_top = 662.0
+offset_right = 1396.0
+offset_bottom = 1174.0
+scale = Vector2(0.08, 0.08)
+texture = ExtResource("14_k40tv")
+
+[node name="TextureRect17" type="TextureRect" parent="Control2/Control/Skill"]
+layout_mode = 0
+offset_left = 943.0
+offset_top = 662.0
+offset_right = 1455.0
+offset_bottom = 1174.0
+scale = Vector2(0.08, 0.08)
+texture = ExtResource("15_eouc8")
+
+[node name="Control2" type="Control" parent="Control2"]
+anchors_preset = 0
+offset_left = 110.0
+offset_top = 3.0
+offset_right = 150.0
+offset_bottom = 43.0
+
+[node name="Treasure UI" type="TextureButton" parent="Control2/Control2"]
+layout_mode = 0
+offset_left = 1011.0
+offset_top = 11.0
+offset_right = 1066.0
+offset_bottom = 72.0
+texture_normal = ExtResource("31_s81o3")
+script = ExtResource("17_ri72p")
+
+[node name="TextureRect" type="TextureRect" parent="Control2/Control2/Treasure UI"]
+layout_mode = 0
+offset_left = 2.0
+offset_top = 46.0
+offset_right = 247.0
+offset_bottom = 145.0
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("17_80l8d")
+
+[node name="Diamond" type="TextureButton" parent="Control2/Control2"]
+layout_mode = 0
+offset_left = 1092.0
+offset_top = 11.0
+offset_right = 1156.0
+offset_bottom = 75.0
+scale = Vector2(0.8, 0.8)
+texture_normal = ExtResource("17_605ta")
+script = ExtResource("17_ri72p")
+
+[node name="TextureRect" type="TextureRect" parent="Control2/Control2/Diamond"]
+layout_mode = 0
+offset_left = 7.50003
+offset_top = 56.25
+offset_right = 267.5
+offset_bottom = 155.25
+scale = Vector2(0.22, 0.22)
+texture = ExtResource("19_s81o3")
+
+[node name="TextureRect" type="TextureButton" parent="Control2/Control2"]
+layout_mode = 0
+offset_left = 841.0
+offset_top = 10.0
+offset_right = 905.0
+offset_bottom = 74.0
+scale = Vector2(0.9, 0.9)
+texture_normal = ExtResource("20_72xvy")
+script = ExtResource("17_ri72p")
+
+[node name="TextureRect" type="TextureRect" parent="Control2/Control2/TextureRect"]
+layout_mode = 0
+offset_left = 7.77778
+offset_top = 52.2222
+offset_right = 252.778
+offset_bottom = 151.222
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("21_fxyk1")
+
+[node name="TextureRect2" type="TextureButton" parent="Control2/Control2"]
+layout_mode = 0
+offset_left = 930.0
+offset_top = 9.0
+offset_right = 994.0
+offset_bottom = 73.0
+scale = Vector2(0.9, 0.9)
+texture_normal = ExtResource("18_80l8d")
+script = ExtResource("17_ri72p")
+
+[node name="TextureRect" type="TextureRect" parent="Control2/Control2/TextureRect2"]
+layout_mode = 0
+offset_left = 7.77778
+offset_top = 52.2222
+offset_right = 252.778
+offset_bottom = 151.222
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("23_kc01s")
+
+[node name="Treasure UI2" type="TextureButton" parent="Control2/Control2"]
+layout_mode = 0
+offset_left = 759.0
+offset_top = 11.0
+offset_right = 824.0
+offset_bottom = 76.0
+texture_normal = ExtResource("24_e1ewf")
+script = ExtResource("17_ri72p")
+
+[node name="TextureRect" type="TextureRect" parent="Control2/Control2/Treasure UI2"]
+layout_mode = 0
+offset_left = -8.0
+offset_top = 44.0
+offset_right = 425.0
+offset_bottom = 143.0
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("25_4oqig")
+
+[node name="TextureRect3" type="TextureRect" parent="Control2/Control2"]
+layout_mode = 0
+offset_left = -95.0
+offset_top = 219.0
+offset_right = -49.0
+offset_bottom = 269.0
+texture = ExtResource("26_kc01s")
+
+[node name="TextureRect4" type="TextureRect" parent="Control2/Control2"]
+layout_mode = 0
+offset_left = -94.0
+offset_top = 281.0
+offset_right = -44.0
+offset_bottom = 331.0
+texture = ExtResource("27_e1ewf")
+
+[node name="Indicator" type="Control" parent="."]
+visible = false
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Sprite2D" type="Sprite2D" parent="Indicator"]
+rotation = 3.14159
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("16_syvs8")
+script = ExtResource("17_k40tv")
+
+[node name="Sprite2D" type="Sprite2D" parent="Indicator/Sprite2D"]
+position = Vector2(-9.53674e-07, -320)
+rotation = 3.14159
+scale = Vector2(3, 3)
+texture = ExtResource("18_eouc8")
+
+[node name="Control3" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="OpenMission" type="TextureButton" parent="Control3"]
+layout_mode = 0
+offset_left = 1239.0
+offset_top = 276.0
+offset_right = 1307.0
+offset_bottom = 436.0
+texture_normal = ExtResource("19_dcfor")
+texture_pressed = ExtResource("20_bl1y6")
+texture_hover = ExtResource("21_px3b4")
+flip_h = true
+script = ExtResource("20_s7sfk")
+
+[node name="TextureRect" type="TextureRect" parent="Control3/OpenMission"]
+layout_mode = 0
+offset_left = -20.0
+offset_top = -18.0
+offset_right = 580.0
+offset_bottom = 582.0
+scale = Vector2(0.06, 0.06)
+texture = ExtResource("35_e1ewf")
+
+[node name="Label" type="Label" parent="Control3/OpenMission/TextureRect"]
+layout_mode = 0
+offset_left = 225.0
+offset_top = -75.0
+offset_right = 473.0
+offset_bottom = 1151.0
+theme_override_font_sizes/font_size = 500
+text = "!"
+
+[node name="TextureRect" type="TextureRect" parent="Control3"]
+visible = false
+layout_mode = 0
+offset_left = 1034.0
+offset_top = 157.0
+offset_right = 6064.0
+offset_bottom = 6537.0
+scale = Vector2(0.05, 0.05)
+texture = ExtResource("23_qgtxt")
+
+[node name="toDemoon" type="Button" parent="Control3/TextureRect"]
+layout_mode = 1
+offset_left = 540.0
+offset_top = 1600.0
+offset_right = 2594.0
+offset_bottom = 1854.0
+scale = Vector2(2, 2)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("22_x3qr3")
+theme_override_font_sizes/font_size = 180
+flat = true
+script = ExtResource("19_k40tv")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Control3/TextureRect/toDemoon"]
+layout_mode = 0
+offset_left = 150.0
+offset_top = 10.0
+offset_right = 1854.0
+offset_bottom = 215.0
+mouse_filter = 2
+theme_override_font_sizes/normal_font_size = 150
+bbcode_enabled = true
+text = "[u]Defeat Demon Lord (0/1)[/u]"
+fit_content = true
+autowrap_mode = 0
+
+[node name="TextureRect" type="TextureRect" parent="Control3/TextureRect/toDemoon"]
+material = SubResource("ShaderMaterial_2mm0q")
+layout_mode = 0
+offset_top = -80.0
+offset_right = 590.0
+offset_bottom = 176.0
+scale = Vector2(3.5, 1.5)
+mouse_filter = 2
+texture = ExtResource("41_itceh")
+
+[node name="toNpc" type="Button" parent="Control3/TextureRect"]
+visible = false
+layout_mode = 0
+offset_left = 560.0
+offset_top = 2440.0
+offset_right = 2350.0
+offset_bottom = 2890.0
+scale = Vector2(2, 2)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("22_x3qr3")
+theme_override_font_sizes/font_size = 180
+flat = true
+alignment = 0
+script = ExtResource("24_wsytr")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Control3/TextureRect/toNpc"]
+layout_mode = 0
+offset_left = 170.0
+offset_top = -10.0
+offset_right = 1874.0
+offset_bottom = 400.0
+mouse_filter = 2
+theme_override_font_sizes/normal_font_size = 150
+bbcode_enabled = true
+text = "[u]Get Home and Claim 
+Your Reward )[/u]"
+fit_content = true
+autowrap_mode = 0
+
+[node name="TextureRect" type="TextureRect" parent="Control3/TextureRect/toNpc"]
+material = SubResource("ShaderMaterial_2mm0q")
+layout_mode = 0
+offset_top = -80.0
+offset_right = 590.0
+offset_bottom = 176.0
+scale = Vector2(3.5, 2.1)
+texture = ExtResource("41_itceh")
+
+[node name="TextureRect" type="TextureRect" parent="Control3/TextureRect"]
+layout_mode = 0
+offset_left = 1520.0
+offset_top = 440.0
+offset_right = 2110.0
+offset_bottom = 552.0
+scale = Vector2(4, 4)
+texture = ExtResource("26_yxy32")
+
+[node name="CloseMission" type="TextureButton" parent="Control3/TextureRect"]
+layout_mode = 0
+offset_left = -460.0
+offset_top = 2640.0
+offset_right = -420.0
+offset_bottom = 2802.0
+scale = Vector2(15, 15)
+texture_normal = ExtResource("19_dcfor")
+texture_pressed = ExtResource("20_bl1y6")
+texture_hover = ExtResource("21_px3b4")
+script = ExtResource("28_bl1y6")
+
+[node name="Indicator2" type="Control" parent="."]
+visible = false
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Sprite2D" type="Sprite2D" parent="Indicator2"]
+scale = Vector2(2, 2)
+texture = ExtResource("18_eouc8")
+script = ExtResource("24_3a7ek")
+
+[node name="Popup" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+script = ExtResource("43_645h0")
+
+[node name="TextureRect" type="TextureRect" parent="Popup"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -165.5
+offset_top = -20.0
+offset_right = 165.5
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+texture = ExtResource("44_ri72p")
+
+[node name="Label" type="Label" parent="Popup"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -11.5
+offset_right = 20.0
+offset_bottom = 11.5
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="HealthBoss" parent="." instance=ExtResource("46_fl353")]
+offset_left = 25.0
+offset_top = 38.0
+offset_right = 25.0
+offset_bottom = 38.0
+
+[connection signal="pressed" from="Control2/Control2/Treasure UI" to="Control2/Control2/Treasure UI" method="_on_pressed"]
+[connection signal="pressed" from="Control2/Control2/Diamond" to="Control2/Control2/Diamond" method="_on_pressed"]
+[connection signal="pressed" from="Control2/Control2/TextureRect" to="Control2/Control2/TextureRect" method="_on_pressed"]
+[connection signal="pressed" from="Control2/Control2/TextureRect2" to="Control2/Control2/TextureRect2" method="_on_pressed"]
+[connection signal="pressed" from="Control2/Control2/Treasure UI2" to="Control2/Control2/Treasure UI2" method="_on_pressed"]
+[connection signal="pressed" from="Control3/OpenMission" to="Control3/OpenMission" method="_on_pressed"]
+[connection signal="pressed" from="Control3/TextureRect/toDemoon" to="Control3/TextureRect/toDemoon" method="_on_pressed"]
+[connection signal="pressed" from="Control3/TextureRect/toNpc" to="Indicator/Sprite2D" method="_on_to_npc_pressed"]
+[connection signal="pressed" from="Control3/TextureRect/toNpc" to="Control3/TextureRect/toNpc" method="_on_pressed"]
+[connection signal="pressed" from="Control3/TextureRect/CloseMission" to="Control3/TextureRect/CloseMission" method="_on_pressed"]

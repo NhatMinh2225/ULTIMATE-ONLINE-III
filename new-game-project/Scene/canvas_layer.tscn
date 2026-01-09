@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=3 uid="uid://bk68ace2p6e4g"]
+
+[ext_resource type="Texture2D" uid="uid://dlkrb5jq3jkww" path="res://asset/Lords Of Pain - Old School Isometric Assets/user interface/filter/filter_vignette.png" id="1_v2lfg"]
+
+[node name="CanvasLayer" type="CanvasLayer"]
+
+[node name="TextureRect" type="TextureRect" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+texture = ExtResource("1_v2lfg")
+expand_mode = 5

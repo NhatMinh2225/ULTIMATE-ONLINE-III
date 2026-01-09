@@ -1,0 +1,160 @@
+[gd_scene load_steps=16 format=3 uid="uid://b08njtvofltto"]
+
+[ext_resource type="Script" uid="uid://p2dumxuji83t" path="res://Script/final_sequence_controller.gd" id="1_p1l4w"]
+[ext_resource type="Texture2D" uid="uid://cso6ucle5m3kr" path="res://Image/gun.png" id="2_5ypuq"]
+[ext_resource type="Texture2D" uid="uid://j47n0i58jswx" path="res://Image/3559528521118217788.jpg" id="2_av8g6"]
+[ext_resource type="Texture2D" uid="uid://3gn3t8g67hk4" path="res://Image/089a08ff-cbbe-4946-b9f9-d9f218b874b4.jpg" id="3_i2a8t"]
+[ext_resource type="AudioStream" uid="uid://c7vkr23ku62nd" path="res://sfx/Gun sound effect - Sound effect box (1) (mp3cut.net).mp3" id="4_3qegy"]
+[ext_resource type="AudioStream" uid="uid://cu3bqyp0gbpv" path="res://sfx/EXTREMELY Loud Flashbang SFX - Jimbo The Janitor (mp3cut.net).mp3" id="5_4bqne"]
+[ext_resource type="AudioStream" uid="uid://dlxikk3m6t5eh" path="res://sfx/Flash bang sound effect but more violent - Rush (mp3cut.net).mp3" id="5_kyffk"]
+[ext_resource type="Texture2D" uid="uid://byji70qghmvi" path="res://Image/realistic-blood-splatter-effect-on-transparent-background-free-png.png" id="7_p3y3p"]
+[ext_resource type="AudioStream" uid="uid://b54b2uir2shv7" path="res://sfx/Door Opening Sound Effect - sound effects (mp3cut.net).mp3" id="9_1vw67"]
+[ext_resource type="AudioStream" uid="uid://cr6j8hmtouduj" path="res://Scene/Breathing Male(heavy) - Sound Effect(HD) - FX Sound Warehouse.mp3" id="10_1vw67"]
+[ext_resource type="AudioStream" uid="uid://ghrtgyisujyj" path="res://Scene/Creepy Footsteps- Sound Effect for Editing - Sound Effect Nexus.mp3" id="11_gnoh0"]
+[ext_resource type="FontFile" uid="uid://dg0whh4ceykhf" path="res://Carlito-Regular.ttf" id="12_ge6k5"]
+[ext_resource type="Script" uid="uid://sbb4pod70qo7" path="res://Scene/mom_text.gd" id="13_k28an"]
+[ext_resource type="AudioStream" uid="uid://b583h67sqwc1s" path="res://ytmp3free (mp3cut.net) (2).mp3" id="14_3los6"]
+[ext_resource type="Script" uid="uid://bvaasvcwdltjd" path="res://Scene/turn_back_final.gd" id="15_3mk4g"]
+
+[node name="FinalSequenceController" type="CanvasLayer"]
+layer = 21
+script = ExtResource("1_p1l4w")
+
+[node name="DarkOverlay" type="TextureRect" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -20.0
+offset_right = 325.0
+offset_bottom = 220.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.8, 0.8)
+texture = ExtResource("2_av8g6")
+flip_h = true
+
+[node name="DarkOverlay2" type="TextureRect" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -20.0
+offset_right = 325.0
+offset_bottom = 220.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.8, 0.8)
+texture = ExtResource("3_i2a8t")
+flip_h = true
+
+[node name="GunButton" type="Button" parent="."]
+offset_left = 544.0
+offset_top = 612.0
+offset_right = 653.0
+offset_bottom = 643.0
+theme_override_font_sizes/font_size = 40
+text = "Take out gun"
+
+[node name="FireButton" type="Button" parent="."]
+offset_left = 617.0
+offset_top = 616.0
+offset_right = 698.0
+offset_bottom = 679.0
+theme_override_font_sizes/font_size = 40
+text = "Fire"
+
+[node name="GunSprite" type="Sprite2D" parent="."]
+position = Vector2(1078, 524)
+texture = ExtResource("2_5ypuq")
+
+[node name="ShadowSprite" type="Sprite2D" parent="."]
+
+[node name="MomSprite" type="Sprite2D" parent="."]
+
+[node name="ReloadSfx" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4_3qegy")
+volume_db = -16.0
+
+[node name="ShootingSound2" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("5_kyffk")
+volume_db = -5.0
+
+[node name="ShootingSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("5_4bqne")
+volume_db = -5.0
+
+[node name="ScreenFlash" type="ColorRect" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+color = Color(1, 1, 1, 0)
+
+[node name="BloodOverlay" type="TextureRect" parent="."]
+visible = false
+offset_right = 1288.0
+offset_bottom = 980.0
+texture = ExtResource("7_p3y3p")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("9_1vw67")
+
+[node name="BreathingMale(heavy)-SoundEffect(hd)-FxSoundWarehouse" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("10_1vw67")
+volume_db = -16.0
+parameters/looping = true
+
+[node name="CreepyFootsteps-SoundEffectForEditing-SoundEffectNexus" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("11_gnoh0")
+
+[node name="Black" type="ColorRect" parent="."]
+visible = false
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+
+[node name="Mom" type="Label" parent="."]
+visible = false
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -110.0
+offset_top = -80.0
+offset_right = 110.0
+offset_bottom = -40.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_fonts/font = ExtResource("12_ge6k5")
+theme_override_font_sizes/font_size = 40
+text = "-mm...MOM?"
+script = ExtResource("13_k28an")
+
+[node name="Ytmp3Free(mp3Cut_net)" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("14_3los6")
+
+[node name="turn_back_final" type="Button" parent="."]
+visible = false
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 181.0
+offset_top = 1.0
+offset_right = 600.0
+offset_bottom = 128.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 40
+text = "Turn back"
+script = ExtResource("15_3mk4g")
+
+[connection signal="pressed" from="GunButton" to="." method="_on_gun_button_pressed"]
+[connection signal="pressed" from="FireButton" to="." method="_on_fire_button_pressed"]
+[connection signal="pressed" from="turn_back_final" to="turn_back_final" method="_on_pressed"]

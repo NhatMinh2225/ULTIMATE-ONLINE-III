@@ -1,0 +1,55 @@
+[gd_scene load_steps=3 format=3 uid="uid://c0o4ysyvxy0oj"]
+
+[ext_resource type="Texture2D" uid="uid://c6gkf5wc22li2" path="res://asset/CaptainCatSparrow/SpellIconsVolume_2/R-removebg-preview.png" id="1_j13o5"]
+[ext_resource type="Script" uid="uid://ct2dj1m57box7" path="res://Scene/headphone_intro.gd" id="1_j74ne"]
+
+[node name="HeadphoneIntro" type="CanvasLayer"]
+script = ExtResource("1_j74ne")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+
+[node name="Control" type="Control" parent="ColorRect"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextureRect" type="TextureRect" parent="ColorRect/Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.499
+anchor_top = 0.448
+anchor_right = 0.5
+anchor_bottom = 0.448
+offset_left = -91.72
+offset_top = -128.56
+offset_right = 407.0
+offset_bottom = 371.44
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.3, 0.3)
+texture = ExtResource("1_j13o5")
+
+[node name="Label" type="Label" parent="ColorRect/Control"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -410.5
+offset_top = -27.5
+offset_right = 410.5
+offset_bottom = 27.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 40
+text = "Wear headphones for the best experience."

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b53a8noms3nkv"
+path="res://.godot/imported/Sound Effect Swords Clashing - Shared Sounds (mp3cut.net).mp3-12308936f0e8fa95c253511915c597db.mp3str"
+
+[deps]
+
+source_file="res://sfx/Sound Effect Swords Clashing - Shared Sounds (mp3cut.net).mp3"
+dest_files=["res://.godot/imported/Sound Effect Swords Clashing - Shared Sounds (mp3cut.net).mp3-12308936f0e8fa95c253511915c597db.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c31h8h0aq70gb"
+path="res://.godot/imported/Old TV static - CSX2000.mp3-bb8467e904a290e10470be05cec141a0.mp3str"
+
+[deps]
+
+source_file="res://Image/Old TV static - CSX2000.mp3"
+dest_files=["res://.godot/imported/Old TV static - CSX2000.mp3-bb8467e904a290e10470be05cec141a0.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

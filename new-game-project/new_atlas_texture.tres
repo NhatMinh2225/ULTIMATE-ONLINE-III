@@ -1,0 +1,7 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://c6ys5blnoxa8t"]
+
+[ext_resource type="Texture2D" uid="uid://g6skt8g0nqnd" path="res://bglobe_idle.png" id="1_krenl"]
+
+[resource]
+atlas = ExtResource("1_krenl")
+margin = Rect2(0, 0, 100, 100)

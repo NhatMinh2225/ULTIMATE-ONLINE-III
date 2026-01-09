@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://dbt22jr7qq8pb"]
+
+[node name="HUD" type="CanvasLayer"]
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0

@@ -1,0 +1,510 @@
+{
+  "stages": [
+
+
+	{
+	  "choices": [
+		{
+		  "text": "greeting",
+		  "reply": "what now? a new player on this ancient game? crazy ",
+		  "next": 1
+		},
+	  ]
+	},
+
+	{
+	  "text": "Hi. This is my first time playing this game.",
+	  "time": 2.0,
+	  "choices": []
+	},
+
+	{
+	  "choices": [
+		{
+		  "text": "bug",
+		  "reply": "fuck… this game’s bugging out or something. what even just happend",
+		  "next": 3
+		},
+		{
+		  "text": "level",
+		  "reply": "this area’s for lvl 200+ only—how tf did you even get in here??",
+		  "next": 63
+		}
+	  ]
+	},
+
+	{
+	  "text": "What just happened?",
+	  "time": 3.0,
+	  "choices": []
+	},
+
+	{
+	  "choices": [
+		{
+		  "text": "virus",
+		  "reply": "i was just doing daily quest and suddenly everything broke like i got hit with a damn virus or something.",
+		  "next": 5
+		},
+	  ]
+	},
+
+	{
+	  "text": "Oh! I understand what’s happening now.",
+	  "time": 5.0,
+	  "choices": []
+	},
+
+	{
+	  "text": "It's because the time has come.",
+	  "time": 4.0,
+	  "choices": []
+	},
+
+	{
+	  "choices": [
+		{
+		  "text": "laptop",
+		  "reply": "yeah its time to fix my laptop bye weirdo.",
+		  "next": 8
+		},
+		{
+		  "text": "time",
+		  "reply": "time? what time?",
+		  "next": 8
+		}
+	  ]
+	},
+
+	{
+	  "text": "You heard the voice, didn’t you?",
+	  "time": 4.0,
+	  "choices": []
+	},
+
+	{
+	  "choices": [
+		{
+		  "text": "voice",
+		  "reply": "voice? wtf are you even saying?? i didn’t hear anything.",
+		  "next": 10
+		},
+		{
+		  "text": "out",
+		  "reply": "hey just keep grinding your weak ass account okay? i'm out.",
+		  "next": 10
+		}
+	  ]
+	},
+
+	{
+	  "text": "Have you ever heard of an Onryō?",
+	  "time": 5.0,
+	  "choices": [
+				{
+		  "text": "Onryō",
+		  "reply": "oryo? is that some type of cookies?",
+		  "next": 11
+		},
+		{
+		  "text": "never",
+		  "reply": "never. what are you even talking about atp?",
+		  "next": 11
+		}
+	]
+	},
+
+	{
+	  "text": "Once upon a time, there was a mother and her lovely young daughter who lived quietly in a rustic hut at the foot of Yoshinoyama mountains. ",
+	  "time": 4,
+	  "choices": []
+	},
+
+	{
+	  "text": " Even though they lived a hard life, the girl's soft beauty was a familiar thing from all over the village.",
+	  "time": 5,
+	  "choices": []
+	},
+	
+
+	{
+	  "text": "One day, a wealthy samurai named Tamiya came on a spying trip.",
+	  "time": 5,
+	  "choices": []
+	},
+
+	{
+	  "text": "His suave look, cultured talk, and the mellifluous flow of Edo-kotoba soon made him gain her confidence.",
+	  "time": 5,
+	  "choices": []
+	},
+
+	{
+	  "text": "Til the day, he won her trust completely, thinking she was the one who would secure his future.",
+	  "time": 5,
+	  "choices": []
+	},
+
+	{
+	  "text": "But when Tamiya was commanded to go back to the shogun, his fear of being caught in an affair by his real wife made him brutal.",
+	  "time": 5,
+	  "choices": []
+	},
+
+	{
+	  "text": "He killed both mother and daughter, set their house on fire under the cover of night, making the killings look like a tragic accident.",
+	  "time": 5,
+	  "choices": []
+	},
+
+	{
+	  "text": "He thought that the truth had become ashes. However, the girl's grudge did not perish.",
+	  "time": 5,
+	  "choices": []
+	},
+
+	{
+	  "text": "She died with the agony of realizing the person she loved most was the one who destroyed her… and she returned as an Onryō.",
+	  "time": 5,
+	  "next" : 64,
+	  "choices": []
+	},
+
+	{
+	  "choices": [
+		{
+		  "text": "why",
+		  "reply": "okay then what that lame ass story have anything to do with me? ?",
+		  "next": 21
+		},
+		{
+		  "text": "fake",
+		  "reply": "ain’t no way this lame ass story is real. who gonna believe it",
+		  "next": 21
+		}
+	  ]
+	},
+
+	{
+	  "text": "Have you ever thought about how familiar it sounds?",
+	  "time": 3.0,
+	  "choices": []
+	},
+
+	{
+	  "text": "A man exploiting a young girl…",
+	  "time": 3.2,
+	  "choices": []
+	},
+
+	{
+	  "text": "Then killing her?",
+	  "time": 3.5,
+	  "choices": []
+	},
+
+	{
+	  "choices": [
+		{
+		  "text": "funny",
+		  "reply": "haha very funny lol. is your dad killing your mom??? yeah i think ive heard about it",
+		  "next": 25
+		},
+		{
+		  "text": "no",
+		  "reply": "ofcourse not? what do you mean familiar?? ",
+		  "next": 25
+		}
+	  ]
+	},
+
+	{
+	  "text": "You still remember that night… out in the field.",
+	  "time": 3.5,
+	  "choices": []
+	},
+
+	{
+	  "choices": [
+		{
+		  "text": "field",
+		  "reply": "field? what the hell are you talking about, you freak?? ",
+		  "next": 27
+		},
+		{
+		  "text": "night",
+		  "reply": "what night? i seriously don’t know what the hell you’re talking about.",
+		  "next": 27
+		}
+	  ]
+	},
+
+	{
+	  "text": "You can hide from everyone else.",
+	  "time": 2.8,
+	  "choices": []
+	},
+
+	{
+	  "text": "But not from what you’ve done.",
+	  "time": 3.5,
+	  "next": -1,
+	  "choices": []
+	},
+
+	{
+	  "text": "",
+	  "time": 3.0,
+	   "next": -1,
+	  "choices": [
+		  
+	  ]
+	},
+
+	{
+	  "choices": [
+		{
+		  "text": "hacker",
+		  "reply": "what the hell is happening right now?? are you some kind of hacker??",
+		  "next": 31
+		},
+		{
+		  "text": "plan",
+		  "reply": "damn it… you're behind all of this, aren't you?",
+		  "next": 31
+		}
+	  ]
+	},
+
+	{
+	  "text": "That girl… she trusted you so much.",
+	  "time": 3.0,
+	  "choices": []
+	},
+
+	{
+	  "text": "And you used that trust.",
+	  "time": 3.0,
+	  "choices": []
+	},
+
+	{
+	  "text": "A stranger willing to meet you in person… just because she liked talking to you in this game.",
+	  "time": 3.2,
+	  "choices": []
+	},
+
+	{
+	  "text": "She was innocent. You knew that, didn’t you?",
+	  "time": 3.0,
+	  "choices": []
+	},
+
+	{
+	  "text": "When you couldn’t control yourself—",
+	  "time": 2.0,
+	  "choices": []
+	},
+
+	{
+	  "text": "That’s when the human part of you died.",
+	  "time": 3.2,
+	  "choices": []
+	},
+
+	{
+	  "choices": [
+		{
+		  "text": "money",
+		  "reply": "listen, i don’t know what you want, okay? just tell me how much money you want i'll pay. seriously",
+		  "next": 38
+		},
+	  ]
+	},
+
+
+	{
+	  "text": "Can money buy back a young girl’s life?",
+	  "time": 3.0,
+	  "choices": []
+	},
+
+	{
+	  "text": "Her innocence?",
+	  "time": 3.2,
+	  "choices": []
+	},
+
+	{
+	  "choices": [
+		{
+		  "text": "regret",
+		  "reply": "it… it happened a long time ago, okay? i think about it every damn day. i regret it. i swear.",
+		  "next": 41
+		}
+	  ]
+	},
+
+	{
+	  "text": "If you truly regretted it…",
+	  "time": 2.5,
+	  "choices": []
+	},
+
+	{
+	  "text": "Why didn’t you turn yourself in?",
+	  "time": 3.0,
+	  "choices": []
+	},
+
+	{
+	  "text": "Or are you just a coward, hiding from the truth?",
+	  "time": 3.0,
+	  "choices": []
+	},
+
+	{
+	  "text": "Retribution is inevitable.",
+	  "time": 3.5,
+	  "choices": []
+	},
+
+	{
+	  "text": "Eternal pain is what awaits you.",
+	  "time": 4.0,
+	  "choices": []
+	},
+
+	{
+	  "choices": [
+		{
+		  "text": "cops",
+		  "reply": "stop ill call the cops i swear to god",
+		  "next": 47
+		}
+	  ]
+	},
+
+	{
+	  "text": "The police?",
+	  "time": 2.8,
+	  "choices": []
+	},
+
+	{
+	  "text": "Don't make me laugh",
+	  "time": 3.0,
+	  "choices": []
+	},
+
+	{
+	  "text": "You still dare to call them after everything you’ve done?",
+	  "time": 3.2,
+	"next" : 51,
+	  "choices": []
+	},
+
+	{
+	  "text": "Hahaha…",
+	  "time": 2.5,
+	  "choices": []
+	},
+
+
+
+	{
+	  
+	  "time": 2.8,
+	  "choices": [{"text": "reason" , "reply": "the girl was too gullibl it’s her parents fault right?","next": 52}]
+	},
+
+	{
+	  "time": 2.2,
+	  "choices": [{"text": "reason" ,  "reply": "no no that’s not what i meant.","next": 53}]
+	},
+
+	{
+	  "time": 3.5,
+	  "choices": [{"text": "reason","reply": "you don’t get it, okay?? it was impossible to control myself… you won’t understand. it’s like a curse to me.", "next" : 54}]
+	},
+
+	{
+	  
+	  "time": 3.5,
+	  "choices": [{"text": "begging", "reply": "please please just stop ill do anything you want please don’t do this", "next" : 55}]
+	},
+
+	{
+	  "text": "Your time is up.",
+	  "time": 3.2,
+	  "choices": []
+	},
+
+	{
+	  "text": "It’s time you paid for what you did.",
+	  "time": 3.8,
+	  "choices": []
+	},
+
+	{
+	  "text": "*a loud noise echoes from downstairs*",
+	  "time": 2.5,
+	  "choices": []
+	},
+
+	{
+	  "time": 2.5,
+	  "choices": [
+		{
+		  "text": "stop",
+		  "reply": "hey— hey STOP. what the hell are you doing?",
+		  "next": 59
+		}
+	  ]
+	},
+
+	{
+
+	  "time": 2.8,
+	  "choices": [{	 "text" : "don't" , "reply": "don’t come up here, i’m serious—i’ve got a gun!", "next": 60 }]
+	},
+
+	{
+	  
+	  "time": 2.0,
+	  "choices": [{"text": "hey", "reply" : "hey bastard are you still there????", "next" : 61}]
+	},
+
+	{
+	  "time": 2.5,
+	  "choices": [{"text": "STOP", "reply" : "I SAID STOP!!", "next" : 62}]
+	},
+
+	{
+	  "time": 1.0,
+	  "next": -1,
+	  "choices": [
+	  ]
+	},
+	
+	{
+	  "text": "I dont't know. The game just spawned me here. Its seem to be the right places",
+	  "time": 3.0,
+	  "choices": [
+		{
+		  "text": "what?",
+		  "reply": "what? its probally just an another bug",
+		  "next": 3
+		}
+	  ]
+	},
+	
+	{
+		"text": "Whispering curses into his ear each day, until the day retribution comes.",
+		"time": 5.0,
+		"next": 20,
+		"choices":[]
+	}
+
+  ]
+}

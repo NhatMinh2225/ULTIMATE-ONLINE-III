@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://db0jauq252jh"
+path="res://.godot/imported/Legendary_Age_[Full Song].wav-b8fa28d4d681b36ebb680939e402d3fe.sample"
+
+[deps]
+
+source_file="res://RPG Starter Pack III/Legendary Age/Legendary_Age_[Full Song].wav"
+dest_files=["res://.godot/imported/Legendary_Age_[Full Song].wav-b8fa28d4d681b36ebb680939e402d3fe.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

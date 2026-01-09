@@ -1,0 +1,63 @@
+[gd_scene load_steps=9 format=3 uid="uid://bo577o26wp20l"]
+
+[ext_resource type="Script" uid="uid://bopu8hsmokef5" path="res://Script/friend_request.gd" id="1_4rew2"]
+[ext_resource type="Texture2D" uid="uid://cea3pc1ekjag3" path="res://asset/Foozle_UI_0001_RPG_Set_1/Panel_1.png" id="2_s8kju"]
+[ext_resource type="Texture2D" uid="uid://bjxowwqnugs7h" path="res://asset/Foozle_UI_0001_RPG_Set_1/Accept_Button_Dark.png" id="3_gduvr"]
+[ext_resource type="Texture2D" uid="uid://qne6tk4ecqu1" path="res://asset/Foozle_UI_0001_RPG_Set_1/Accept_Button_Light.png" id="4_d2045"]
+[ext_resource type="Texture2D" uid="uid://crpax0njqjo0w" path="res://asset/Foozle_UI_0001_RPG_Set_1/Decline_Button_Light.png" id="4_w0ial"]
+[ext_resource type="Texture2D" uid="uid://kepufq76hksf" path="res://asset/Foozle_UI_0001_RPG_Set_1/Decline_Button_Normal.png" id="5_qjgbh"]
+[ext_resource type="Texture2D" uid="uid://dqnwep2biyl3c" path="res://asset/Foozle_UI_0001_RPG_Set_1/Accept_Button_Normal.png" id="5_w0ial"]
+[ext_resource type="Texture2D" uid="uid://ccthp33qsj81b" path="res://asset/Foozle_UI_0001_RPG_Set_1/Decline_Button_Dark.png" id="6_gduvr"]
+
+[node name="FriendRequest" type="CanvasLayer"]
+script = ExtResource("1_4rew2")
+
+[node name="Panel" type="TextureRect" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -312.0
+offset_top = -218.0
+offset_right = 312.0
+offset_bottom = 218.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_s8kju")
+
+[node name="Label" type="Label" parent="Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -11.5
+offset_right = 20.0
+offset_bottom = 11.5
+grow_horizontal = 2
+grow_vertical = 2
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Button_Decline" type="TextureButton" parent="Panel"]
+layout_mode = 0
+offset_left = 345.0
+offset_top = 307.0
+offset_right = 545.0
+offset_bottom = 360.0
+texture_normal = ExtResource("6_gduvr")
+texture_pressed = ExtResource("4_w0ial")
+texture_hover = ExtResource("5_qjgbh")
+
+[node name="Button_Accept" type="TextureButton" parent="Panel"]
+layout_mode = 0
+offset_left = 86.0
+offset_top = 307.0
+offset_right = 286.0
+offset_bottom = 360.0
+texture_normal = ExtResource("3_gduvr")
+texture_pressed = ExtResource("4_d2045")
+texture_hover = ExtResource("5_w0ial")

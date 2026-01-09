@@ -1,0 +1,2491 @@
+[gd_scene load_steps=526 format=3 uid="uid://dgev3u8cq34nq"]
+
+[ext_resource type="Script" uid="uid://6p1gqo62n0bw" path="res://demonlord.gd" id="1_0hbwa"]
+[ext_resource type="Texture2D" uid="uid://gyhcxoit6twi" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/E/demonlord_default_attack1_E_0.0_0.png" id="2_ob4lw"]
+[ext_resource type="Texture2D" uid="uid://brdat7f7m6unk" path="res://asset/Dark Fantasy UI Pack (CC-BY 4.0 - Of Far Different Nature)/OFDN UI PACK - Health Bar A2.png" id="2_srgxh"]
+[ext_resource type="Texture2D" uid="uid://cv4f2aclmfyv4" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/E/demonlord_default_attack1_E_0.0_1.png" id="3_hlryo"]
+[ext_resource type="Texture2D" uid="uid://de7tg6vqay12w" path="res://asset/Dark Fantasy UI Pack (CC-BY 4.0 - Of Far Different Nature)/OFDN UI Pack - Health Bar A1.png" id="3_wy33b"]
+[ext_resource type="Texture2D" uid="uid://t8a87l30ipky" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/E/demonlord_default_attack1_E_0.0_2.png" id="4_pgl1v"]
+[ext_resource type="Texture2D" uid="uid://cv56gvw7ixggx" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/E/demonlord_default_attack1_E_0.0_3.png" id="5_80y4k"]
+[ext_resource type="Texture2D" uid="uid://cl47qt17rsuty" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/E/demonlord_default_attack1_E_0.0_4.png" id="6_ybpav"]
+[ext_resource type="Texture2D" uid="uid://bfddb38b7lr5x" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/E/demonlord_default_attack1_E_0.0_5.png" id="7_wjltk"]
+[ext_resource type="Texture2D" uid="uid://dlim1voougjcm" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/E/demonlord_default_attack1_E_0.0_6.png" id="8_srgxh"]
+[ext_resource type="Texture2D" uid="uid://bvosfijjxk8w" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/E/demonlord_default_attack1_E_0.0_7.png" id="9_wy33b"]
+[ext_resource type="Texture2D" uid="uid://eobb116kdfbq" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/N/demonlord_default_attack1_N_90.0_0.png" id="10_pbhx7"]
+[ext_resource type="Texture2D" uid="uid://d3aknlnxbpbfu" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/N/demonlord_default_attack1_N_90.0_1.png" id="11_6cet7"]
+[ext_resource type="Texture2D" uid="uid://plcny82jdd10" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/N/demonlord_default_attack1_N_90.0_2.png" id="12_p71s4"]
+[ext_resource type="Texture2D" uid="uid://b30swscp7kr1c" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/N/demonlord_default_attack1_N_90.0_3.png" id="13_7wlwd"]
+[ext_resource type="Texture2D" uid="uid://bcsupp3oqfnk6" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/N/demonlord_default_attack1_N_90.0_4.png" id="14_st28o"]
+[ext_resource type="Texture2D" uid="uid://2b1tj42uca2u" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/N/demonlord_default_attack1_N_90.0_5.png" id="15_w4ats"]
+[ext_resource type="Texture2D" uid="uid://bnwvxotpifhhb" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/N/demonlord_default_attack1_N_90.0_6.png" id="16_pg7j6"]
+[ext_resource type="Texture2D" uid="uid://ic8alef4y0is" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/N/demonlord_default_attack1_N_90.0_7.png" id="17_actvg"]
+[ext_resource type="Texture2D" uid="uid://0hdefxlhbef0" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/NE/demonlord_default_attack1_NE_45.0_0.png" id="18_rxv4a"]
+[ext_resource type="Texture2D" uid="uid://c8jurtajj23g5" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/NE/demonlord_default_attack1_NE_45.0_1.png" id="19_vx2yy"]
+[ext_resource type="Texture2D" uid="uid://buiyyomkoqxdl" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/NE/demonlord_default_attack1_NE_45.0_2.png" id="20_beb0t"]
+[ext_resource type="Texture2D" uid="uid://dbu6d3sry8q4e" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/NE/demonlord_default_attack1_NE_45.0_3.png" id="21_2s0tq"]
+[ext_resource type="Texture2D" uid="uid://btfpa0m37wdk0" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/NE/demonlord_default_attack1_NE_45.0_4.png" id="22_f58dv"]
+[ext_resource type="Texture2D" uid="uid://d4ld7qjv63pia" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/NE/demonlord_default_attack1_NE_45.0_5.png" id="23_tbea0"]
+[ext_resource type="Texture2D" uid="uid://chcijhdwrcss8" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/NE/demonlord_default_attack1_NE_45.0_6.png" id="24_xn0kg"]
+[ext_resource type="Texture2D" uid="uid://cdu8avlgv3fdx" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/NE/demonlord_default_attack1_NE_45.0_7.png" id="25_jgkq2"]
+[ext_resource type="Texture2D" uid="uid://bsakkhp3ym0t7" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/NEE/demonlord_default_attack1_NEE_22.5_0.png" id="26_k1b0y"]
+[ext_resource type="Texture2D" uid="uid://4xgeb2hns1en" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/NEE/demonlord_default_attack1_NEE_22.5_1.png" id="27_8ovrx"]
+[ext_resource type="Texture2D" uid="uid://dtl6fow788e1w" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/NEE/demonlord_default_attack1_NEE_22.5_2.png" id="28_t5wci"]
+[ext_resource type="Texture2D" uid="uid://bk2ygnn7nqteg" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/NEE/demonlord_default_attack1_NEE_22.5_3.png" id="29_y7hx6"]
+[ext_resource type="Texture2D" uid="uid://bxwfwtm3as7wx" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/NEE/demonlord_default_attack1_NEE_22.5_4.png" id="30_nurri"]
+[ext_resource type="Texture2D" uid="uid://cg8dd5odgjywn" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/NEE/demonlord_default_attack1_NEE_22.5_5.png" id="31_72p7a"]
+[ext_resource type="Texture2D" uid="uid://b2bmfwc5vrggs" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/NEE/demonlord_default_attack1_NEE_22.5_6.png" id="32_vbvnh"]
+[ext_resource type="Texture2D" uid="uid://di012ydrvb3ae" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/NEE/demonlord_default_attack1_NEE_22.5_7.png" id="33_oax3q"]
+[ext_resource type="Texture2D" uid="uid://eydggoq38rs7" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/NNE/demonlord_default_attack1_NNE_67.5_0.png" id="34_s2g4w"]
+[ext_resource type="Texture2D" uid="uid://clqfry3t3kp2x" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/NNE/demonlord_default_attack1_NNE_67.5_1.png" id="35_sd4md"]
+[ext_resource type="Texture2D" uid="uid://byplh63qbaxt5" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/NNE/demonlord_default_attack1_NNE_67.5_2.png" id="36_awics"]
+[ext_resource type="Texture2D" uid="uid://r41fkyvlxwcl" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/NNE/demonlord_default_attack1_NNE_67.5_3.png" id="37_knnqv"]
+[ext_resource type="Texture2D" uid="uid://jyibu85fgamt" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/NNE/demonlord_default_attack1_NNE_67.5_4.png" id="38_4plny"]
+[ext_resource type="Texture2D" uid="uid://dx4jjitjes6yt" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/NNE/demonlord_default_attack1_NNE_67.5_5.png" id="39_ipb7b"]
+[ext_resource type="Texture2D" uid="uid://dvyy7h0swy31j" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/NNE/demonlord_default_attack1_NNE_67.5_6.png" id="40_1644y"]
+[ext_resource type="Texture2D" uid="uid://dfv6o0871s0xk" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/NNE/demonlord_default_attack1_NNE_67.5_7.png" id="41_63lnm"]
+[ext_resource type="Texture2D" uid="uid://b2q4sc73un0sa" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/NNW/demonlord_default_attack1_NNW_112.5_0.png" id="42_8d2w8"]
+[ext_resource type="Texture2D" uid="uid://b76y13f20k16k" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/NNW/demonlord_default_attack1_NNW_112.5_1.png" id="43_tcgj0"]
+[ext_resource type="Texture2D" uid="uid://cgnp665shp0tj" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/NNW/demonlord_default_attack1_NNW_112.5_2.png" id="44_kwovg"]
+[ext_resource type="Texture2D" uid="uid://cy44n0dkv2kyb" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/NNW/demonlord_default_attack1_NNW_112.5_3.png" id="45_bauku"]
+[ext_resource type="Texture2D" uid="uid://udsd83eumqrh" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/NNW/demonlord_default_attack1_NNW_112.5_4.png" id="46_lkets"]
+[ext_resource type="Texture2D" uid="uid://cq7hb33xrftnc" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/NNW/demonlord_default_attack1_NNW_112.5_5.png" id="47_1bunf"]
+[ext_resource type="Texture2D" uid="uid://xnq6u12fclkh" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/NNW/demonlord_default_attack1_NNW_112.5_6.png" id="48_181h3"]
+[ext_resource type="Texture2D" uid="uid://do3fxssfd5m3o" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/NNW/demonlord_default_attack1_NNW_112.5_7.png" id="49_7mjpq"]
+[ext_resource type="Texture2D" uid="uid://dntvfm00bqnjg" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/NW/demonlord_default_attack1_NW_135.0_0.png" id="50_7otge"]
+[ext_resource type="Texture2D" uid="uid://crtwxm0p0ch7k" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/NW/demonlord_default_attack1_NW_135.0_1.png" id="51_nqw2p"]
+[ext_resource type="Texture2D" uid="uid://0k0h63ubc6n6" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/NW/demonlord_default_attack1_NW_135.0_2.png" id="52_o6m2o"]
+[ext_resource type="Texture2D" uid="uid://tta7dncdu7gb" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/NW/demonlord_default_attack1_NW_135.0_3.png" id="53_tq2fq"]
+[ext_resource type="Texture2D" uid="uid://bjat15ciya0g5" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/NW/demonlord_default_attack1_NW_135.0_4.png" id="54_q24fi"]
+[ext_resource type="Texture2D" uid="uid://cpsx8lsvhj1j2" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/NW/demonlord_default_attack1_NW_135.0_5.png" id="55_gfdv8"]
+[ext_resource type="Texture2D" uid="uid://bwguyfdwltcf8" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/NW/demonlord_default_attack1_NW_135.0_6.png" id="56_cigpj"]
+[ext_resource type="Texture2D" uid="uid://cc581lskl3eo" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/NW/demonlord_default_attack1_NW_135.0_7.png" id="57_kc8gf"]
+[ext_resource type="Texture2D" uid="uid://xcdr04b8fs6o" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/NWW/demonlord_default_attack1_NWW_157.5_0.png" id="58_4lqt8"]
+[ext_resource type="Texture2D" uid="uid://dtennvf0jlnw7" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/NWW/demonlord_default_attack1_NWW_157.5_1.png" id="59_xgbl0"]
+[ext_resource type="Texture2D" uid="uid://5g2h0nu75b02" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/NWW/demonlord_default_attack1_NWW_157.5_2.png" id="60_eqmrq"]
+[ext_resource type="Texture2D" uid="uid://cymx3xuh24nsr" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/NWW/demonlord_default_attack1_NWW_157.5_3.png" id="61_ao7g5"]
+[ext_resource type="Texture2D" uid="uid://ht3hddsyhuug" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/NWW/demonlord_default_attack1_NWW_157.5_4.png" id="62_bvp1f"]
+[ext_resource type="Texture2D" uid="uid://btbknbjdaqnfm" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/NWW/demonlord_default_attack1_NWW_157.5_5.png" id="63_n84c0"]
+[ext_resource type="Texture2D" uid="uid://bcgij1gwvfi5o" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/NWW/demonlord_default_attack1_NWW_157.5_6.png" id="64_457kp"]
+[ext_resource type="Texture2D" uid="uid://bqgvjg5ohtlkq" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/NWW/demonlord_default_attack1_NWW_157.5_7.png" id="65_e12go"]
+[ext_resource type="Texture2D" uid="uid://mmv6aojw46ty" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/S/demonlord_default_attack1_S_270.0_0.png" id="66_sj3vc"]
+[ext_resource type="Texture2D" uid="uid://bjfq7o2vsv6md" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/S/demonlord_default_attack1_S_270.0_1.png" id="67_m165p"]
+[ext_resource type="Texture2D" uid="uid://ck1ess8qcro7k" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/S/demonlord_default_attack1_S_270.0_2.png" id="68_c4p2t"]
+[ext_resource type="Texture2D" uid="uid://17ypd6nqbflb" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/S/demonlord_default_attack1_S_270.0_3.png" id="69_cx3si"]
+[ext_resource type="Texture2D" uid="uid://du4ubea1em5x4" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/S/demonlord_default_attack1_S_270.0_4.png" id="70_nchek"]
+[ext_resource type="Texture2D" uid="uid://b8fv4b20vsqrv" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/S/demonlord_default_attack1_S_270.0_5.png" id="71_xdcm7"]
+[ext_resource type="Texture2D" uid="uid://bgeufmx330rg0" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/S/demonlord_default_attack1_S_270.0_6.png" id="72_6gd1g"]
+[ext_resource type="Texture2D" uid="uid://djxof6s76yur4" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/S/demonlord_default_attack1_S_270.0_7.png" id="73_dsbrb"]
+[ext_resource type="Texture2D" uid="uid://duxwmmsc021ai" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/SE/demonlord_default_attack1_SE_315.0_0.png" id="74_v271s"]
+[ext_resource type="Texture2D" uid="uid://d0cut88smj7ds" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/SE/demonlord_default_attack1_SE_315.0_1.png" id="75_7vma6"]
+[ext_resource type="Texture2D" uid="uid://c5ndpi3d17jn4" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/SE/demonlord_default_attack1_SE_315.0_2.png" id="76_4ksot"]
+[ext_resource type="Texture2D" uid="uid://06fv73e3g554" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/SE/demonlord_default_attack1_SE_315.0_3.png" id="77_yqifs"]
+[ext_resource type="Texture2D" uid="uid://d1phv0y1adcy6" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/SE/demonlord_default_attack1_SE_315.0_4.png" id="78_u62ke"]
+[ext_resource type="Texture2D" uid="uid://cel03qt6je2hd" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/SE/demonlord_default_attack1_SE_315.0_5.png" id="79_p3q2h"]
+[ext_resource type="Texture2D" uid="uid://dhopfdtr8l1bk" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/SE/demonlord_default_attack1_SE_315.0_6.png" id="80_tg7pb"]
+[ext_resource type="Texture2D" uid="uid://igbbnirrdeio" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/SE/demonlord_default_attack1_SE_315.0_7.png" id="81_1qoqo"]
+[ext_resource type="Texture2D" uid="uid://cj6m0ss672ueq" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/SEE/demonlord_default_attack1_SEE_337.5_0.png" id="82_3vlym"]
+[ext_resource type="Texture2D" uid="uid://d0x2k22lksgjg" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/SEE/demonlord_default_attack1_SEE_337.5_1.png" id="83_7i25w"]
+[ext_resource type="Texture2D" uid="uid://cfylh8chcjujl" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/SEE/demonlord_default_attack1_SEE_337.5_2.png" id="84_ndgx1"]
+[ext_resource type="Texture2D" uid="uid://nsb2se4sw1wy" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/SEE/demonlord_default_attack1_SEE_337.5_3.png" id="85_hoo4g"]
+[ext_resource type="Texture2D" uid="uid://cu6wjqsihbb2k" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/SEE/demonlord_default_attack1_SEE_337.5_4.png" id="86_te5a4"]
+[ext_resource type="Texture2D" uid="uid://sjnglqravuqf" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/SEE/demonlord_default_attack1_SEE_337.5_5.png" id="87_yxy3u"]
+[ext_resource type="Texture2D" uid="uid://b6ph55loa2jo" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/SEE/demonlord_default_attack1_SEE_337.5_6.png" id="88_xqlnv"]
+[ext_resource type="Texture2D" uid="uid://cm4hb2xea2d6f" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/SEE/demonlord_default_attack1_SEE_337.5_7.png" id="89_6eoxg"]
+[ext_resource type="Texture2D" uid="uid://clrc64wf8ywsu" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/SSE/demonlord_default_attack1_SSE_292.5_0.png" id="90_2b043"]
+[ext_resource type="Texture2D" uid="uid://u2trxxewkme1" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/SSE/demonlord_default_attack1_SSE_292.5_1.png" id="91_5yyrp"]
+[ext_resource type="Texture2D" uid="uid://bt30js7o8ado4" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/SSE/demonlord_default_attack1_SSE_292.5_2.png" id="92_747k1"]
+[ext_resource type="Texture2D" uid="uid://borkvhat3t52h" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/SSE/demonlord_default_attack1_SSE_292.5_3.png" id="93_t1gle"]
+[ext_resource type="Texture2D" uid="uid://58dm1ccisrbf" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/SSE/demonlord_default_attack1_SSE_292.5_4.png" id="94_hnbfu"]
+[ext_resource type="Texture2D" uid="uid://d1tqtq2wvskmr" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/SSE/demonlord_default_attack1_SSE_292.5_5.png" id="95_l4pex"]
+[ext_resource type="Texture2D" uid="uid://bpmcvp1ohd5vh" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/SSE/demonlord_default_attack1_SSE_292.5_6.png" id="96_ji8uq"]
+[ext_resource type="Texture2D" uid="uid://dt0eus5j3iydw" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/SSE/demonlord_default_attack1_SSE_292.5_7.png" id="97_dsvns"]
+[ext_resource type="Texture2D" uid="uid://dt3fmtfc8l8b3" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/SSW/demonlord_default_attack1_SSW_247.5_0.png" id="98_givkp"]
+[ext_resource type="Texture2D" uid="uid://b4y6gqtfkib6b" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/SSW/demonlord_default_attack1_SSW_247.5_1.png" id="99_ntn7t"]
+[ext_resource type="Texture2D" uid="uid://vbrmg5g6dmxn" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/SSW/demonlord_default_attack1_SSW_247.5_2.png" id="100_ws4a5"]
+[ext_resource type="Texture2D" uid="uid://dhyjicq5vcecg" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/SSW/demonlord_default_attack1_SSW_247.5_3.png" id="101_gv38c"]
+[ext_resource type="Texture2D" uid="uid://w02648nbu0f5" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/SSW/demonlord_default_attack1_SSW_247.5_4.png" id="102_7mliy"]
+[ext_resource type="Texture2D" uid="uid://g3he4nhcsqfg" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/SSW/demonlord_default_attack1_SSW_247.5_5.png" id="103_55eaa"]
+[ext_resource type="Texture2D" uid="uid://dydd82m2nhaqj" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/SSW/demonlord_default_attack1_SSW_247.5_6.png" id="104_5j2yv"]
+[ext_resource type="Texture2D" uid="uid://bbh6br6kk77yl" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/SSW/demonlord_default_attack1_SSW_247.5_7.png" id="105_hmga3"]
+[ext_resource type="Texture2D" uid="uid://bbjwevnkvovei" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/SW/demonlord_default_attack1_SW_225.0_0.png" id="106_lmbbs"]
+[ext_resource type="Texture2D" uid="uid://cvbs3lu1v2rkk" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/SW/demonlord_default_attack1_SW_225.0_1.png" id="107_77t33"]
+[ext_resource type="Texture2D" uid="uid://cm3nw3w6mbsf2" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/SW/demonlord_default_attack1_SW_225.0_2.png" id="108_3umqw"]
+[ext_resource type="Texture2D" uid="uid://cmv0iqcmfjdcb" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/SW/demonlord_default_attack1_SW_225.0_3.png" id="109_x5mx1"]
+[ext_resource type="Texture2D" uid="uid://rmls2ixmj38d" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/SW/demonlord_default_attack1_SW_225.0_4.png" id="110_umi2f"]
+[ext_resource type="Texture2D" uid="uid://ps43ksksmfqt" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/SW/demonlord_default_attack1_SW_225.0_5.png" id="111_yygmw"]
+[ext_resource type="Texture2D" uid="uid://ebru2va1kg8d" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/SW/demonlord_default_attack1_SW_225.0_6.png" id="112_r71lb"]
+[ext_resource type="Texture2D" uid="uid://b7ih7qotppgah" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/SW/demonlord_default_attack1_SW_225.0_7.png" id="113_g0muo"]
+[ext_resource type="Texture2D" uid="uid://dctohqq5hsceg" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/SWW/demonlord_default_attack1_SWW_202.5_0.png" id="114_m6167"]
+[ext_resource type="Texture2D" uid="uid://b4jv8sl8tdmxb" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/SWW/demonlord_default_attack1_SWW_202.5_1.png" id="115_3u6yt"]
+[ext_resource type="Texture2D" uid="uid://b33t8v8v6smc0" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/SWW/demonlord_default_attack1_SWW_202.5_2.png" id="116_w1h27"]
+[ext_resource type="Texture2D" uid="uid://b7s2h2jtv2feh" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/SWW/demonlord_default_attack1_SWW_202.5_3.png" id="117_u531f"]
+[ext_resource type="Texture2D" uid="uid://cxpcroeorp3vh" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/SWW/demonlord_default_attack1_SWW_202.5_4.png" id="118_7a7or"]
+[ext_resource type="Texture2D" uid="uid://gy53sylvsan" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/SWW/demonlord_default_attack1_SWW_202.5_5.png" id="119_ghh4c"]
+[ext_resource type="Texture2D" uid="uid://mt33fgaouud7" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/SWW/demonlord_default_attack1_SWW_202.5_6.png" id="120_h0kyc"]
+[ext_resource type="Texture2D" uid="uid://huwlu8oaovqr" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/SWW/demonlord_default_attack1_SWW_202.5_7.png" id="121_btf8o"]
+[ext_resource type="Texture2D" uid="uid://dw6u0yl341naq" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/W/demonlord_default_attack1_W_180.0_0.png" id="122_d3l8f"]
+[ext_resource type="Texture2D" uid="uid://danutqsp5kv00" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/W/demonlord_default_attack1_W_180.0_1.png" id="123_8frg8"]
+[ext_resource type="Texture2D" uid="uid://cewqtgkj2vgir" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/W/demonlord_default_attack1_W_180.0_2.png" id="124_w7jqt"]
+[ext_resource type="Texture2D" uid="uid://de0uliy4eolmj" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/W/demonlord_default_attack1_W_180.0_3.png" id="125_d6bvf"]
+[ext_resource type="Texture2D" uid="uid://fv78qhmh7ee6" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/W/demonlord_default_attack1_W_180.0_4.png" id="126_t2nw3"]
+[ext_resource type="Texture2D" uid="uid://dq477qmaic5w5" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/W/demonlord_default_attack1_W_180.0_5.png" id="127_xrtip"]
+[ext_resource type="Texture2D" uid="uid://c6tah8d4w3klp" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/W/demonlord_default_attack1_W_180.0_6.png" id="128_iw7fr"]
+[ext_resource type="Texture2D" uid="uid://cghhnvu7qnior" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_attack1/W/demonlord_default_attack1_W_180.0_7.png" id="129_qpcf8"]
+[ext_resource type="Texture2D" uid="uid://cbmxfwv505ml" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/E/demonlord_special_death_E_0.0_0.png" id="130_0hbwa"]
+[ext_resource type="Texture2D" uid="uid://dgg5kcnxwfpgj" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/E/demonlord_special_death_E_0.0_1.png" id="131_ob4lw"]
+[ext_resource type="Texture2D" uid="uid://bbdfsu67ocvhk" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/E/demonlord_special_death_E_0.0_2.png" id="132_hlryo"]
+[ext_resource type="Texture2D" uid="uid://b3jvngikliduh" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/E/demonlord_special_death_E_0.0_3.png" id="133_pgl1v"]
+[ext_resource type="Texture2D" uid="uid://d03jnf1ai0847" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/E/demonlord_special_death_E_0.0_4.png" id="134_80y4k"]
+[ext_resource type="Texture2D" uid="uid://dibgp3hgoe0vt" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/E/demonlord_special_death_E_0.0_5.png" id="135_ybpav"]
+[ext_resource type="Texture2D" uid="uid://dg8afdv8u5785" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/E/demonlord_special_death_E_0.0_6.png" id="136_wjltk"]
+[ext_resource type="Texture2D" uid="uid://c1j05ggpr4ulq" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/E/demonlord_special_death_E_0.0_7.png" id="137_srgxh"]
+[ext_resource type="Texture2D" uid="uid://tha73vpyyte0" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/N/demonlord_special_death_N_90.0_0.png" id="138_wy33b"]
+[ext_resource type="Texture2D" uid="uid://bgxti6hx1ych6" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/N/demonlord_special_death_N_90.0_1.png" id="139_pbhx7"]
+[ext_resource type="Texture2D" uid="uid://dy34oiifednco" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/N/demonlord_special_death_N_90.0_2.png" id="140_6cet7"]
+[ext_resource type="Texture2D" uid="uid://dxv18f332iduw" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/N/demonlord_special_death_N_90.0_3.png" id="141_p71s4"]
+[ext_resource type="Texture2D" uid="uid://b1cwnnp50m1nf" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/N/demonlord_special_death_N_90.0_4.png" id="142_7wlwd"]
+[ext_resource type="Texture2D" uid="uid://cjql67b18ixai" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/N/demonlord_special_death_N_90.0_5.png" id="143_st28o"]
+[ext_resource type="Texture2D" uid="uid://onljl3cpjtrk" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/N/demonlord_special_death_N_90.0_6.png" id="144_w4ats"]
+[ext_resource type="Texture2D" uid="uid://frkt0ks8upia" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/N/demonlord_special_death_N_90.0_7.png" id="145_pg7j6"]
+[ext_resource type="Texture2D" uid="uid://daliapxm3mmm8" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/NE/demonlord_special_death_NE_45.0_0.png" id="146_actvg"]
+[ext_resource type="Texture2D" uid="uid://c03gtx0da2pl2" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/NE/demonlord_special_death_NE_45.0_1.png" id="147_rxv4a"]
+[ext_resource type="Texture2D" uid="uid://cmedot8yu8yca" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/NE/demonlord_special_death_NE_45.0_2.png" id="148_vx2yy"]
+[ext_resource type="Texture2D" uid="uid://c7jq2p16txxso" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/NE/demonlord_special_death_NE_45.0_3.png" id="149_beb0t"]
+[ext_resource type="Texture2D" uid="uid://hc431vnogrw0" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/NE/demonlord_special_death_NE_45.0_4.png" id="150_2s0tq"]
+[ext_resource type="Texture2D" uid="uid://56151ht6jwih" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/NE/demonlord_special_death_NE_45.0_5.png" id="151_f58dv"]
+[ext_resource type="Texture2D" uid="uid://n45n35kfpo7k" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/NE/demonlord_special_death_NE_45.0_6.png" id="152_tbea0"]
+[ext_resource type="Texture2D" uid="uid://dhpy5myjng0ec" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/NE/demonlord_special_death_NE_45.0_7.png" id="153_xn0kg"]
+[ext_resource type="Texture2D" uid="uid://bftte4llsoudj" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/NEE/demonlord_special_death_NEE_22.5_0.png" id="154_jgkq2"]
+[ext_resource type="Texture2D" uid="uid://db1u38j6l3500" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/NEE/demonlord_special_death_NEE_22.5_1.png" id="155_k1b0y"]
+[ext_resource type="Texture2D" uid="uid://4u7j8xykw51e" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/NEE/demonlord_special_death_NEE_22.5_2.png" id="156_8ovrx"]
+[ext_resource type="Texture2D" uid="uid://w7kqpwi3084x" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/NEE/demonlord_special_death_NEE_22.5_3.png" id="157_t5wci"]
+[ext_resource type="Texture2D" uid="uid://uhdfb6h65wpx" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/NEE/demonlord_special_death_NEE_22.5_4.png" id="158_y7hx6"]
+[ext_resource type="Texture2D" uid="uid://cmr6ph3m7kc8u" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/NEE/demonlord_special_death_NEE_22.5_5.png" id="159_nurri"]
+[ext_resource type="Texture2D" uid="uid://cgp4kffmc6mka" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/NEE/demonlord_special_death_NEE_22.5_6.png" id="160_72p7a"]
+[ext_resource type="Texture2D" uid="uid://cwj6jwkhpkj4p" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/NEE/demonlord_special_death_NEE_22.5_7.png" id="161_vbvnh"]
+[ext_resource type="Texture2D" uid="uid://cq5mfjwpksarl" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/NNE/demonlord_special_death_NNE_67.5_0.png" id="162_oax3q"]
+[ext_resource type="Texture2D" uid="uid://dhorbxoha346f" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/NNE/demonlord_special_death_NNE_67.5_1.png" id="163_s2g4w"]
+[ext_resource type="Texture2D" uid="uid://ce32do6j6eaf2" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/NNE/demonlord_special_death_NNE_67.5_2.png" id="164_sd4md"]
+[ext_resource type="Texture2D" uid="uid://d1mglf4s8qt5" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/NNE/demonlord_special_death_NNE_67.5_3.png" id="165_awics"]
+[ext_resource type="Texture2D" uid="uid://c3x0w12qb1eet" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/NNE/demonlord_special_death_NNE_67.5_4.png" id="166_knnqv"]
+[ext_resource type="Texture2D" uid="uid://pjyqct3lfqd5" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/NNE/demonlord_special_death_NNE_67.5_5.png" id="167_4plny"]
+[ext_resource type="Texture2D" uid="uid://do82g2kybwudr" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/NNE/demonlord_special_death_NNE_67.5_6.png" id="168_ipb7b"]
+[ext_resource type="Texture2D" uid="uid://dpeqnpr8scfnn" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/NNE/demonlord_special_death_NNE_67.5_7.png" id="169_1644y"]
+[ext_resource type="Texture2D" uid="uid://dj0nrrxtym3a4" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/NNW/demonlord_special_death_NNW_112.5_0.png" id="170_63lnm"]
+[ext_resource type="Texture2D" uid="uid://bj4sgly2joaut" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/NNW/demonlord_special_death_NNW_112.5_1.png" id="171_8d2w8"]
+[ext_resource type="Texture2D" uid="uid://d1bgev5r2cx0n" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/NNW/demonlord_special_death_NNW_112.5_2.png" id="172_tcgj0"]
+[ext_resource type="Texture2D" uid="uid://b7nh1r810ojva" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/NNW/demonlord_special_death_NNW_112.5_3.png" id="173_kwovg"]
+[ext_resource type="Texture2D" uid="uid://dmsk8qh4c0ppn" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/NNW/demonlord_special_death_NNW_112.5_4.png" id="174_bauku"]
+[ext_resource type="Texture2D" uid="uid://b4duchh2fayi8" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/NNW/demonlord_special_death_NNW_112.5_5.png" id="175_lkets"]
+[ext_resource type="Texture2D" uid="uid://gut8j7eraujw" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/NNW/demonlord_special_death_NNW_112.5_6.png" id="176_1bunf"]
+[ext_resource type="Texture2D" uid="uid://3w6g454gmle3" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/NNW/demonlord_special_death_NNW_112.5_7.png" id="177_181h3"]
+[ext_resource type="Texture2D" uid="uid://75vtboj7nn5p" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/NW/demonlord_special_death_NW_135.0_0.png" id="178_7mjpq"]
+[ext_resource type="Texture2D" uid="uid://kl7fowtd8hkl" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/NW/demonlord_special_death_NW_135.0_1.png" id="179_7otge"]
+[ext_resource type="Texture2D" uid="uid://3bqpaw27scep" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/NW/demonlord_special_death_NW_135.0_2.png" id="180_nqw2p"]
+[ext_resource type="Texture2D" uid="uid://dvfc5jeotq0dl" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/NW/demonlord_special_death_NW_135.0_3.png" id="181_o6m2o"]
+[ext_resource type="Texture2D" uid="uid://d0w3hj0waqd2o" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/NW/demonlord_special_death_NW_135.0_4.png" id="182_tq2fq"]
+[ext_resource type="Texture2D" uid="uid://m08pdga62j0l" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/NW/demonlord_special_death_NW_135.0_5.png" id="183_q24fi"]
+[ext_resource type="Texture2D" uid="uid://b8yhihk43kmdd" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/NW/demonlord_special_death_NW_135.0_6.png" id="184_gfdv8"]
+[ext_resource type="Texture2D" uid="uid://cavvgynxp3fly" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/NW/demonlord_special_death_NW_135.0_7.png" id="185_cigpj"]
+[ext_resource type="Texture2D" uid="uid://51vw3egqf0yg" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/NWW/demonlord_special_death_NWW_157.5_0.png" id="186_kc8gf"]
+[ext_resource type="Texture2D" uid="uid://do5nhilfv4537" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/NWW/demonlord_special_death_NWW_157.5_1.png" id="187_4lqt8"]
+[ext_resource type="Texture2D" uid="uid://c7p52yf17wmnh" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/NWW/demonlord_special_death_NWW_157.5_2.png" id="188_xgbl0"]
+[ext_resource type="Texture2D" uid="uid://bwyoq2sehvjqi" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/NWW/demonlord_special_death_NWW_157.5_3.png" id="189_eqmrq"]
+[ext_resource type="Texture2D" uid="uid://bdj7w13a56e40" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/NWW/demonlord_special_death_NWW_157.5_4.png" id="190_ao7g5"]
+[ext_resource type="Texture2D" uid="uid://d145y4y5j77e7" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/NWW/demonlord_special_death_NWW_157.5_5.png" id="191_bvp1f"]
+[ext_resource type="Texture2D" uid="uid://bscsw2io76whk" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/NWW/demonlord_special_death_NWW_157.5_6.png" id="192_n84c0"]
+[ext_resource type="Texture2D" uid="uid://dppj4ncgkylug" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/NWW/demonlord_special_death_NWW_157.5_7.png" id="193_457kp"]
+[ext_resource type="Texture2D" uid="uid://dixgrgo685bdr" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/S/demonlord_special_death_S_270.0_0.png" id="194_e12go"]
+[ext_resource type="Texture2D" uid="uid://dyfa30nh0gb7s" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/S/demonlord_special_death_S_270.0_1.png" id="195_sj3vc"]
+[ext_resource type="Texture2D" uid="uid://d3c8k6tq2qeyx" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/S/demonlord_special_death_S_270.0_2.png" id="196_m165p"]
+[ext_resource type="Texture2D" uid="uid://xp4g6janytjm" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/S/demonlord_special_death_S_270.0_3.png" id="197_c4p2t"]
+[ext_resource type="Texture2D" uid="uid://bcc8c1lb8oli6" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/S/demonlord_special_death_S_270.0_4.png" id="198_cx3si"]
+[ext_resource type="Texture2D" uid="uid://eor2qmwdkl2f" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/S/demonlord_special_death_S_270.0_5.png" id="199_nchek"]
+[ext_resource type="Texture2D" uid="uid://davm1atctl5jr" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/S/demonlord_special_death_S_270.0_6.png" id="200_xdcm7"]
+[ext_resource type="Texture2D" uid="uid://dj0hhm4pxqehf" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/S/demonlord_special_death_S_270.0_7.png" id="201_6gd1g"]
+[ext_resource type="Texture2D" uid="uid://ciyu87rhgl215" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/SE/demonlord_special_death_SE_315.0_0.png" id="202_dsbrb"]
+[ext_resource type="Texture2D" uid="uid://udm6ms28jhn1" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/SE/demonlord_special_death_SE_315.0_1.png" id="203_v271s"]
+[ext_resource type="Texture2D" uid="uid://toajfdk04y7j" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/SE/demonlord_special_death_SE_315.0_2.png" id="204_7vma6"]
+[ext_resource type="Texture2D" uid="uid://bbgg8y8l1g7e3" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/SE/demonlord_special_death_SE_315.0_3.png" id="205_4ksot"]
+[ext_resource type="Texture2D" uid="uid://dxy5d5ylhv7ew" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/SE/demonlord_special_death_SE_315.0_4.png" id="206_yqifs"]
+[ext_resource type="Texture2D" uid="uid://b13qf628o4up3" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/SE/demonlord_special_death_SE_315.0_5.png" id="207_u62ke"]
+[ext_resource type="Texture2D" uid="uid://dwgu8rbyf0ypl" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/SE/demonlord_special_death_SE_315.0_6.png" id="208_p3q2h"]
+[ext_resource type="Texture2D" uid="uid://4uho4fbr7ydk" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/SE/demonlord_special_death_SE_315.0_7.png" id="209_tg7pb"]
+[ext_resource type="Texture2D" uid="uid://dhe2mv0csd30p" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/SEE/demonlord_special_death_SEE_337.5_0.png" id="210_1qoqo"]
+[ext_resource type="Texture2D" uid="uid://bjgxu5luhvv4d" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/SEE/demonlord_special_death_SEE_337.5_1.png" id="211_3vlym"]
+[ext_resource type="Texture2D" uid="uid://dpv0u6p7e4ha5" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/SEE/demonlord_special_death_SEE_337.5_2.png" id="212_7i25w"]
+[ext_resource type="Texture2D" uid="uid://cmsn2emj0wos7" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/SEE/demonlord_special_death_SEE_337.5_3.png" id="213_ndgx1"]
+[ext_resource type="Texture2D" uid="uid://ct6oaca4lm5m" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/SEE/demonlord_special_death_SEE_337.5_4.png" id="214_hoo4g"]
+[ext_resource type="Texture2D" uid="uid://bb575xdfhdadl" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/SEE/demonlord_special_death_SEE_337.5_5.png" id="215_te5a4"]
+[ext_resource type="Texture2D" uid="uid://b5waq1xhoaksb" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/SEE/demonlord_special_death_SEE_337.5_6.png" id="216_yxy3u"]
+[ext_resource type="Texture2D" uid="uid://bnyos0d5wc0lj" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/SEE/demonlord_special_death_SEE_337.5_7.png" id="217_xqlnv"]
+[ext_resource type="Texture2D" uid="uid://7813dm7fkge" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/SSE/demonlord_special_death_SSE_292.5_0.png" id="218_6eoxg"]
+[ext_resource type="Texture2D" uid="uid://daew1qh0gq7o2" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/SSE/demonlord_special_death_SSE_292.5_1.png" id="219_2b043"]
+[ext_resource type="Texture2D" uid="uid://d2p7mwlesw1j5" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/SSE/demonlord_special_death_SSE_292.5_2.png" id="220_5yyrp"]
+[ext_resource type="Texture2D" uid="uid://cpyheps4vgmei" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/SSE/demonlord_special_death_SSE_292.5_3.png" id="221_747k1"]
+[ext_resource type="Texture2D" uid="uid://dhjll4wmryif5" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/SSE/demonlord_special_death_SSE_292.5_4.png" id="222_t1gle"]
+[ext_resource type="Texture2D" uid="uid://lfbucj1lftlv" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/SSE/demonlord_special_death_SSE_292.5_5.png" id="223_hnbfu"]
+[ext_resource type="Texture2D" uid="uid://cl1l2j2j7fso3" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/SSE/demonlord_special_death_SSE_292.5_6.png" id="224_l4pex"]
+[ext_resource type="Texture2D" uid="uid://bblv6wrty6rxq" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/SSE/demonlord_special_death_SSE_292.5_7.png" id="225_ji8uq"]
+[ext_resource type="Texture2D" uid="uid://c352yglq2kbns" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/SSW/demonlord_special_death_SSW_247.5_0.png" id="226_dsvns"]
+[ext_resource type="Texture2D" uid="uid://b2kien4hl0omq" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/SSW/demonlord_special_death_SSW_247.5_1.png" id="227_givkp"]
+[ext_resource type="Texture2D" uid="uid://da1k08pnhdo8t" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/SSW/demonlord_special_death_SSW_247.5_2.png" id="228_ntn7t"]
+[ext_resource type="Texture2D" uid="uid://wmnvie1xqlik" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/SSW/demonlord_special_death_SSW_247.5_3.png" id="229_ws4a5"]
+[ext_resource type="Texture2D" uid="uid://c080mm1bo7h24" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/SSW/demonlord_special_death_SSW_247.5_4.png" id="230_gv38c"]
+[ext_resource type="Texture2D" uid="uid://b5ecawxbxiam1" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/SSW/demonlord_special_death_SSW_247.5_5.png" id="231_7mliy"]
+[ext_resource type="Texture2D" uid="uid://b2g1t8erx4k7p" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/SSW/demonlord_special_death_SSW_247.5_6.png" id="232_55eaa"]
+[ext_resource type="Texture2D" uid="uid://5p4v8r2nm23n" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/SSW/demonlord_special_death_SSW_247.5_7.png" id="233_5j2yv"]
+[ext_resource type="Texture2D" uid="uid://snm5m2rsih4" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/SW/demonlord_special_death_SW_225.0_0.png" id="234_hmga3"]
+[ext_resource type="Texture2D" uid="uid://yycg08q85sny" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/SW/demonlord_special_death_SW_225.0_1.png" id="235_lmbbs"]
+[ext_resource type="Texture2D" uid="uid://b2yu2l5gysgoq" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/SW/demonlord_special_death_SW_225.0_2.png" id="236_77t33"]
+[ext_resource type="Texture2D" uid="uid://c6od2os2b4qa5" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/SW/demonlord_special_death_SW_225.0_3.png" id="237_3umqw"]
+[ext_resource type="Texture2D" uid="uid://kuofyu73nqne" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/SW/demonlord_special_death_SW_225.0_4.png" id="238_x5mx1"]
+[ext_resource type="Texture2D" uid="uid://cs6skyladv2e8" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/SW/demonlord_special_death_SW_225.0_5.png" id="239_umi2f"]
+[ext_resource type="Texture2D" uid="uid://bjx18edwrnlcs" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/SW/demonlord_special_death_SW_225.0_6.png" id="240_yygmw"]
+[ext_resource type="Texture2D" uid="uid://b0pq1qhktkn6e" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/SW/demonlord_special_death_SW_225.0_7.png" id="241_r71lb"]
+[ext_resource type="Texture2D" uid="uid://cu8yugn5wn83r" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/SWW/demonlord_special_death_SWW_202.5_0.png" id="242_g0muo"]
+[ext_resource type="Texture2D" uid="uid://bmaqvtbfko4qh" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/SWW/demonlord_special_death_SWW_202.5_1.png" id="243_m6167"]
+[ext_resource type="Texture2D" uid="uid://bvnwgx5uu5ly7" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/SWW/demonlord_special_death_SWW_202.5_2.png" id="244_3u6yt"]
+[ext_resource type="Texture2D" uid="uid://0tqed4sw1j7y" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/SWW/demonlord_special_death_SWW_202.5_3.png" id="245_w1h27"]
+[ext_resource type="Texture2D" uid="uid://d05hstdc7jga0" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/SWW/demonlord_special_death_SWW_202.5_4.png" id="246_u531f"]
+[ext_resource type="Texture2D" uid="uid://cjiwhnrfnymja" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/SWW/demonlord_special_death_SWW_202.5_5.png" id="247_7a7or"]
+[ext_resource type="Texture2D" uid="uid://ciefljvva3rjb" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/SWW/demonlord_special_death_SWW_202.5_6.png" id="248_ghh4c"]
+[ext_resource type="Texture2D" uid="uid://b31c10ljmqrx6" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/SWW/demonlord_special_death_SWW_202.5_7.png" id="249_h0kyc"]
+[ext_resource type="Texture2D" uid="uid://dc32my7ome1js" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/W/demonlord_special_death_W_180.0_0.png" id="250_btf8o"]
+[ext_resource type="Texture2D" uid="uid://2gjj71d4tuvo" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/W/demonlord_special_death_W_180.0_1.png" id="251_d3l8f"]
+[ext_resource type="Texture2D" uid="uid://coy6tow1o7pfv" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/W/demonlord_special_death_W_180.0_2.png" id="252_8frg8"]
+[ext_resource type="Texture2D" uid="uid://wkredf8nwpv7" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/W/demonlord_special_death_W_180.0_3.png" id="253_w7jqt"]
+[ext_resource type="Texture2D" uid="uid://dgyssgjribvwf" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/W/demonlord_special_death_W_180.0_4.png" id="254_d6bvf"]
+[ext_resource type="Texture2D" uid="uid://nks60miig43i" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/W/demonlord_special_death_W_180.0_5.png" id="255_t2nw3"]
+[ext_resource type="Texture2D" uid="uid://b765r3b2kiqlr" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/W/demonlord_special_death_W_180.0_6.png" id="256_xrtip"]
+[ext_resource type="Texture2D" uid="uid://d00heq4hqfxmg" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_special_death/W/demonlord_special_death_W_180.0_7.png" id="257_iw7fr"]
+[ext_resource type="Texture2D" uid="uid://gte4fjyd7tg1" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/E/demonlord_default_idle_E_0.0_0.png" id="258_buwqh"]
+[ext_resource type="Texture2D" uid="uid://dymc2lq5rkwpl" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/E/demonlord_default_idle_E_0.0_1.png" id="259_dppld"]
+[ext_resource type="Texture2D" uid="uid://drgdhiaxrskx5" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/E/demonlord_default_idle_E_0.0_2.png" id="260_ow3m0"]
+[ext_resource type="Texture2D" uid="uid://xixn16j1i02v" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/E/demonlord_default_idle_E_0.0_3.png" id="261_v1uj7"]
+[ext_resource type="Texture2D" uid="uid://chbpj3t53emac" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/E/demonlord_default_idle_E_0.0_4.png" id="262_uonqx"]
+[ext_resource type="Texture2D" uid="uid://dmgonuwkuyjfl" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/E/demonlord_default_idle_E_0.0_5.png" id="263_7ne2d"]
+[ext_resource type="Texture2D" uid="uid://cf06rwiugmf7v" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/E/demonlord_default_idle_E_0.0_6.png" id="264_yn5d2"]
+[ext_resource type="Texture2D" uid="uid://8fywp10l6kje" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/E/demonlord_default_idle_E_0.0_7.png" id="265_77f3l"]
+[ext_resource type="Texture2D" uid="uid://bg756h40pt7fm" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/N/demonlord_default_idle_N_90.0_0.png" id="266_5vk2h"]
+[ext_resource type="Texture2D" uid="uid://kdh453fq02hr" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/N/demonlord_default_idle_N_90.0_1.png" id="267_pfe5e"]
+[ext_resource type="Texture2D" uid="uid://dgtqfa2ubocc1" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/N/demonlord_default_idle_N_90.0_2.png" id="268_gdsr8"]
+[ext_resource type="Texture2D" uid="uid://b103ynckudw1w" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/N/demonlord_default_idle_N_90.0_3.png" id="269_3eqe6"]
+[ext_resource type="Texture2D" uid="uid://c4wlwfefievby" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/N/demonlord_default_idle_N_90.0_4.png" id="270_8d5rs"]
+[ext_resource type="Texture2D" uid="uid://dy0hgarlu0x3p" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/N/demonlord_default_idle_N_90.0_5.png" id="271_ljfmx"]
+[ext_resource type="Texture2D" uid="uid://c0isyicck3uxl" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/N/demonlord_default_idle_N_90.0_6.png" id="272_fwtcn"]
+[ext_resource type="Texture2D" uid="uid://bqe2du3gf6lv8" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/N/demonlord_default_idle_N_90.0_7.png" id="273_1gdd5"]
+[ext_resource type="Texture2D" uid="uid://dk0vfgncgou33" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/NE/demonlord_default_idle_NE_45.0_0.png" id="274_ltncs"]
+[ext_resource type="Texture2D" uid="uid://dpi3ko3aq4tfp" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/NE/demonlord_default_idle_NE_45.0_1.png" id="275_81s8l"]
+[ext_resource type="Texture2D" uid="uid://bbfafdoxfngdx" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/NE/demonlord_default_idle_NE_45.0_2.png" id="276_8cf0w"]
+[ext_resource type="Texture2D" uid="uid://cr7myh8jdogrd" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/NE/demonlord_default_idle_NE_45.0_3.png" id="277_q1c54"]
+[ext_resource type="Texture2D" uid="uid://ctt8hwddgypde" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/NE/demonlord_default_idle_NE_45.0_4.png" id="278_w64sn"]
+[ext_resource type="Texture2D" uid="uid://c6vyoijanhr6o" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/NE/demonlord_default_idle_NE_45.0_5.png" id="279_4abf1"]
+[ext_resource type="Texture2D" uid="uid://cevyqq27syklt" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/NE/demonlord_default_idle_NE_45.0_6.png" id="280_6ahlg"]
+[ext_resource type="Texture2D" uid="uid://c7hhpussmlg0j" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/NE/demonlord_default_idle_NE_45.0_7.png" id="281_w4y1c"]
+[ext_resource type="Texture2D" uid="uid://bmmfkq8bx2p5w" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/NEE/demonlord_default_idle_NEE_22.5_0.png" id="282_bdfi3"]
+[ext_resource type="Texture2D" uid="uid://bxtnwbd1qle0n" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/NEE/demonlord_default_idle_NEE_22.5_1.png" id="283_nsjh3"]
+[ext_resource type="Texture2D" uid="uid://855o6jp2jt5y" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/NEE/demonlord_default_idle_NEE_22.5_2.png" id="284_g744t"]
+[ext_resource type="Texture2D" uid="uid://i2sa4j4bebus" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/NEE/demonlord_default_idle_NEE_22.5_3.png" id="285_1g3xk"]
+[ext_resource type="Texture2D" uid="uid://b5fyixj6dncwi" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/NEE/demonlord_default_idle_NEE_22.5_4.png" id="286_cli6o"]
+[ext_resource type="Texture2D" uid="uid://bpgoksgnhcv23" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/NEE/demonlord_default_idle_NEE_22.5_5.png" id="287_urg1t"]
+[ext_resource type="Texture2D" uid="uid://dxfv3qcetgvnl" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/NEE/demonlord_default_idle_NEE_22.5_6.png" id="288_3x3gi"]
+[ext_resource type="Texture2D" uid="uid://bn8j0y5gqvuiu" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/NEE/demonlord_default_idle_NEE_22.5_7.png" id="289_lhpxu"]
+[ext_resource type="Texture2D" uid="uid://mb4x3ccg02ej" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/NNE/demonlord_default_idle_NNE_67.5_0.png" id="290_mcitm"]
+[ext_resource type="Texture2D" uid="uid://cb7wq87yia7tf" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/NNE/demonlord_default_idle_NNE_67.5_1.png" id="291_5vpf4"]
+[ext_resource type="Texture2D" uid="uid://b87k406w7hdo1" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/NNE/demonlord_default_idle_NNE_67.5_2.png" id="292_3xo84"]
+[ext_resource type="Texture2D" uid="uid://cnfp7odk3l6al" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/NNE/demonlord_default_idle_NNE_67.5_3.png" id="293_qm2ma"]
+[ext_resource type="Texture2D" uid="uid://dx1na5iarhysx" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/NNE/demonlord_default_idle_NNE_67.5_4.png" id="294_6metl"]
+[ext_resource type="Texture2D" uid="uid://c0fymyfdcbqh" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/NNE/demonlord_default_idle_NNE_67.5_5.png" id="295_42xoo"]
+[ext_resource type="Texture2D" uid="uid://dshidr3rgq7wk" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/NNE/demonlord_default_idle_NNE_67.5_6.png" id="296_yq68k"]
+[ext_resource type="Texture2D" uid="uid://crjnul3yxcmu8" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/NNE/demonlord_default_idle_NNE_67.5_7.png" id="297_fa1t2"]
+[ext_resource type="Texture2D" uid="uid://ddccisr4mtv5u" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/NNW/demonlord_default_idle_NNW_112.5_0.png" id="298_oneb4"]
+[ext_resource type="Texture2D" uid="uid://btnkgkho5arc" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/NNW/demonlord_default_idle_NNW_112.5_1.png" id="299_jq4mm"]
+[ext_resource type="Texture2D" uid="uid://dqiu70v6finl5" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/NNW/demonlord_default_idle_NNW_112.5_2.png" id="300_nwygu"]
+[ext_resource type="Texture2D" uid="uid://cwmn5pvh7bu6d" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/NNW/demonlord_default_idle_NNW_112.5_3.png" id="301_w76kq"]
+[ext_resource type="Texture2D" uid="uid://cr6gym88bvvxe" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/NNW/demonlord_default_idle_NNW_112.5_4.png" id="302_y4xwv"]
+[ext_resource type="Texture2D" uid="uid://d0u2w0k5w68rb" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/NNW/demonlord_default_idle_NNW_112.5_5.png" id="303_b2ojo"]
+[ext_resource type="Texture2D" uid="uid://beauiux3krll4" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/NNW/demonlord_default_idle_NNW_112.5_6.png" id="304_lbmpj"]
+[ext_resource type="Texture2D" uid="uid://btl3ucbp4kdeb" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/NNW/demonlord_default_idle_NNW_112.5_7.png" id="305_wkhrh"]
+[ext_resource type="Texture2D" uid="uid://blyuf1ldu1nwg" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/NW/demonlord_default_idle_NW_135.0_0.png" id="306_v5ov0"]
+[ext_resource type="Texture2D" uid="uid://dp3keoc6fxdes" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/NW/demonlord_default_idle_NW_135.0_1.png" id="307_s2d5e"]
+[ext_resource type="Texture2D" uid="uid://d4e70env1ldu0" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/NW/demonlord_default_idle_NW_135.0_2.png" id="308_c78a0"]
+[ext_resource type="Texture2D" uid="uid://du3wgrksvq7i1" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/NW/demonlord_default_idle_NW_135.0_3.png" id="309_rkqya"]
+[ext_resource type="Texture2D" uid="uid://cyjnp6vsgpvum" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/NW/demonlord_default_idle_NW_135.0_4.png" id="310_r722w"]
+[ext_resource type="Texture2D" uid="uid://cf8413hfvlhuv" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/NW/demonlord_default_idle_NW_135.0_5.png" id="311_oev4o"]
+[ext_resource type="Texture2D" uid="uid://xjdbqcgtgsc7" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/NW/demonlord_default_idle_NW_135.0_6.png" id="312_4tdv3"]
+[ext_resource type="Texture2D" uid="uid://q7w0yjivpqj3" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/NW/demonlord_default_idle_NW_135.0_7.png" id="313_yohpg"]
+[ext_resource type="Texture2D" uid="uid://bphbf0dcmsvb" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/NWW/demonlord_default_idle_NWW_157.5_0.png" id="314_32k6q"]
+[ext_resource type="Texture2D" uid="uid://bp7cwpc75ejbc" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/NWW/demonlord_default_idle_NWW_157.5_1.png" id="315_f5aqw"]
+[ext_resource type="Texture2D" uid="uid://jlh2rgl2sydu" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/NWW/demonlord_default_idle_NWW_157.5_2.png" id="316_ier61"]
+[ext_resource type="Texture2D" uid="uid://b7oiify73dslm" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/NWW/demonlord_default_idle_NWW_157.5_3.png" id="317_c60sq"]
+[ext_resource type="Texture2D" uid="uid://cnncnwex557fb" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/NWW/demonlord_default_idle_NWW_157.5_4.png" id="318_f4vwa"]
+[ext_resource type="Texture2D" uid="uid://dq3owwjbcv4ac" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/NWW/demonlord_default_idle_NWW_157.5_5.png" id="319_xiesc"]
+[ext_resource type="Texture2D" uid="uid://dgugbkbhoee0s" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/NWW/demonlord_default_idle_NWW_157.5_6.png" id="320_lluyk"]
+[ext_resource type="Texture2D" uid="uid://lm1jgk12usjn" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/NWW/demonlord_default_idle_NWW_157.5_7.png" id="321_u8u8s"]
+[ext_resource type="Texture2D" uid="uid://b653ka6aol0as" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/S/demonlord_default_idle_S_270.0_0.png" id="322_l147m"]
+[ext_resource type="Texture2D" uid="uid://0ydcso2fbiue" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/S/demonlord_default_idle_S_270.0_1.png" id="323_s0wxb"]
+[ext_resource type="Texture2D" uid="uid://mxsg2s0snphf" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/S/demonlord_default_idle_S_270.0_2.png" id="324_451f1"]
+[ext_resource type="Texture2D" uid="uid://dxktrqtie11oa" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/S/demonlord_default_idle_S_270.0_3.png" id="325_ius3p"]
+[ext_resource type="Texture2D" uid="uid://bciqr6qhj0uvn" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/S/demonlord_default_idle_S_270.0_4.png" id="326_xd1qt"]
+[ext_resource type="Texture2D" uid="uid://mao0cs22tith" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/S/demonlord_default_idle_S_270.0_5.png" id="327_4bbo5"]
+[ext_resource type="Texture2D" uid="uid://cxpb2fd7bk05g" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/S/demonlord_default_idle_S_270.0_6.png" id="328_el72a"]
+[ext_resource type="Texture2D" uid="uid://24y0trxuu1pl" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/S/demonlord_default_idle_S_270.0_7.png" id="329_37kv3"]
+[ext_resource type="Texture2D" uid="uid://ch0u1tk1wve80" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/SE/demonlord_default_idle_SE_315.0_0.png" id="330_0jnk6"]
+[ext_resource type="Texture2D" uid="uid://dpcv2s7jfd425" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/SE/demonlord_default_idle_SE_315.0_1.png" id="331_2gc7u"]
+[ext_resource type="Texture2D" uid="uid://3cjie3fpsaxk" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/SE/demonlord_default_idle_SE_315.0_2.png" id="332_cds0h"]
+[ext_resource type="Texture2D" uid="uid://cc2sdy2kcfys6" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/SE/demonlord_default_idle_SE_315.0_3.png" id="333_a6kjy"]
+[ext_resource type="Texture2D" uid="uid://cumfldg66u8co" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/SE/demonlord_default_idle_SE_315.0_4.png" id="334_742sl"]
+[ext_resource type="Texture2D" uid="uid://db533d2cymxd4" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/SE/demonlord_default_idle_SE_315.0_5.png" id="335_t4cxv"]
+[ext_resource type="Texture2D" uid="uid://h3qvfgd4r1vm" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/SE/demonlord_default_idle_SE_315.0_6.png" id="336_5nnsb"]
+[ext_resource type="Texture2D" uid="uid://dtypwh4j0udqb" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/SE/demonlord_default_idle_SE_315.0_7.png" id="337_l0ebb"]
+[ext_resource type="Texture2D" uid="uid://te55bomiu0ra" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/SEE/demonlord_default_idle_SEE_337.5_0.png" id="338_xlqox"]
+[ext_resource type="Texture2D" uid="uid://cnsjnj2mls55y" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/SEE/demonlord_default_idle_SEE_337.5_1.png" id="339_qjbk3"]
+[ext_resource type="Texture2D" uid="uid://byhu6dsp2w4me" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/SEE/demonlord_default_idle_SEE_337.5_2.png" id="340_s7b1e"]
+[ext_resource type="Texture2D" uid="uid://xy38k48axkvu" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/SEE/demonlord_default_idle_SEE_337.5_3.png" id="341_gxekw"]
+[ext_resource type="Texture2D" uid="uid://iomstjkucqb6" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/SEE/demonlord_default_idle_SEE_337.5_4.png" id="342_5bs07"]
+[ext_resource type="Texture2D" uid="uid://cgdf48vgc2qam" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/SEE/demonlord_default_idle_SEE_337.5_5.png" id="343_soocg"]
+[ext_resource type="Texture2D" uid="uid://b3t2xhus45mnp" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/SEE/demonlord_default_idle_SEE_337.5_6.png" id="344_tqln8"]
+[ext_resource type="Texture2D" uid="uid://ck2dx35pdlby8" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/SEE/demonlord_default_idle_SEE_337.5_7.png" id="345_vswk8"]
+[ext_resource type="Texture2D" uid="uid://4ocf1yvriaut" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/SSE/demonlord_default_idle_SSE_292.5_0.png" id="346_y6ovp"]
+[ext_resource type="Texture2D" uid="uid://djubj0auyj4et" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/SSE/demonlord_default_idle_SSE_292.5_1.png" id="347_xy08q"]
+[ext_resource type="Texture2D" uid="uid://b2ghjcgd3nues" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/SSE/demonlord_default_idle_SSE_292.5_2.png" id="348_hgo4r"]
+[ext_resource type="Texture2D" uid="uid://dc42al0qqi863" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/SSE/demonlord_default_idle_SSE_292.5_3.png" id="349_6k8pt"]
+[ext_resource type="Texture2D" uid="uid://ds5rt7ugg458c" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/SSE/demonlord_default_idle_SSE_292.5_4.png" id="350_3iake"]
+[ext_resource type="Texture2D" uid="uid://bubg0f6fkn127" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/SSE/demonlord_default_idle_SSE_292.5_5.png" id="351_51xyt"]
+[ext_resource type="Texture2D" uid="uid://cd823anpu1xjf" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/SSE/demonlord_default_idle_SSE_292.5_6.png" id="352_sil8s"]
+[ext_resource type="Texture2D" uid="uid://cbb3q1jbg3gl5" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/SSE/demonlord_default_idle_SSE_292.5_7.png" id="353_vbmli"]
+[ext_resource type="Texture2D" uid="uid://bc2whspcxe87v" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/SSW/demonlord_default_idle_SSW_247.5_0.png" id="354_7yfps"]
+[ext_resource type="Texture2D" uid="uid://c7yf8sfrbrvrm" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/SSW/demonlord_default_idle_SSW_247.5_1.png" id="355_vt3sw"]
+[ext_resource type="Texture2D" uid="uid://cwypl4tpob83q" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/SSW/demonlord_default_idle_SSW_247.5_2.png" id="356_ljetq"]
+[ext_resource type="Texture2D" uid="uid://0vvbhvo43o6l" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/SSW/demonlord_default_idle_SSW_247.5_3.png" id="357_deemv"]
+[ext_resource type="Texture2D" uid="uid://bmh31go8wsn2a" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/SSW/demonlord_default_idle_SSW_247.5_4.png" id="358_tj8f6"]
+[ext_resource type="Texture2D" uid="uid://deyjykf2q25cn" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/SSW/demonlord_default_idle_SSW_247.5_5.png" id="359_3fvwc"]
+[ext_resource type="Texture2D" uid="uid://bhmn6iphb1w75" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/SSW/demonlord_default_idle_SSW_247.5_6.png" id="360_wo5tk"]
+[ext_resource type="Texture2D" uid="uid://cwoayf8lc6nw4" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/SSW/demonlord_default_idle_SSW_247.5_7.png" id="361_bc1d2"]
+[ext_resource type="Texture2D" uid="uid://dcxhyxhm013ak" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/SW/demonlord_default_idle_SW_225.0_0.png" id="362_b074v"]
+[ext_resource type="Texture2D" uid="uid://d1wxromvadm64" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/SW/demonlord_default_idle_SW_225.0_1.png" id="363_wqtyn"]
+[ext_resource type="Texture2D" uid="uid://dchd5jwbt5pf3" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/SW/demonlord_default_idle_SW_225.0_2.png" id="364_n57tq"]
+[ext_resource type="Texture2D" uid="uid://cboqws2v15ms5" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/SW/demonlord_default_idle_SW_225.0_3.png" id="365_llole"]
+[ext_resource type="Texture2D" uid="uid://dxi6mqnuhvocs" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/SW/demonlord_default_idle_SW_225.0_4.png" id="366_fpwgi"]
+[ext_resource type="Texture2D" uid="uid://cfnrtkflynhjl" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/SW/demonlord_default_idle_SW_225.0_5.png" id="367_swkgr"]
+[ext_resource type="Texture2D" uid="uid://bmsskxtbuqqjo" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/SW/demonlord_default_idle_SW_225.0_6.png" id="368_1petq"]
+[ext_resource type="Texture2D" uid="uid://bdx5coyy5mvtc" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/SW/demonlord_default_idle_SW_225.0_7.png" id="369_dpwip"]
+[ext_resource type="Texture2D" uid="uid://dp8f7m1jm6uqm" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/SWW/demonlord_default_idle_SWW_202.5_0.png" id="370_knhit"]
+[ext_resource type="Texture2D" uid="uid://j4xgmf5epu8m" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/SWW/demonlord_default_idle_SWW_202.5_1.png" id="371_v7jhi"]
+[ext_resource type="Texture2D" uid="uid://ckkarbihjs7oc" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/SWW/demonlord_default_idle_SWW_202.5_2.png" id="372_1adbf"]
+[ext_resource type="Texture2D" uid="uid://b8vhxh7wn0ups" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/SWW/demonlord_default_idle_SWW_202.5_3.png" id="373_mm3f1"]
+[ext_resource type="Texture2D" uid="uid://bkafm4t3p23pv" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/SWW/demonlord_default_idle_SWW_202.5_4.png" id="374_vkik2"]
+[ext_resource type="Texture2D" uid="uid://drwvv58xjgrqs" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/SWW/demonlord_default_idle_SWW_202.5_5.png" id="375_bjqdy"]
+[ext_resource type="Texture2D" uid="uid://b7nc5r3e2g3in" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/SWW/demonlord_default_idle_SWW_202.5_6.png" id="376_qus7k"]
+[ext_resource type="Texture2D" uid="uid://ctyxf8mv3460e" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/SWW/demonlord_default_idle_SWW_202.5_7.png" id="377_ucvox"]
+[ext_resource type="Texture2D" uid="uid://4ann2y6x2b4u" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/W/demonlord_default_idle_W_180.0_0.png" id="378_11knq"]
+[ext_resource type="Texture2D" uid="uid://d1en3j02faoa4" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/W/demonlord_default_idle_W_180.0_1.png" id="379_xkvb1"]
+[ext_resource type="Texture2D" uid="uid://18f126ssfonu" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/W/demonlord_default_idle_W_180.0_2.png" id="380_gputf"]
+[ext_resource type="Texture2D" uid="uid://bl3bw78s5485f" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/W/demonlord_default_idle_W_180.0_3.png" id="381_e7nbe"]
+[ext_resource type="Texture2D" uid="uid://14iosev1xqo0" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/W/demonlord_default_idle_W_180.0_4.png" id="382_2i1gl"]
+[ext_resource type="Texture2D" uid="uid://bcd0ecl2juqat" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/W/demonlord_default_idle_W_180.0_5.png" id="383_vupva"]
+[ext_resource type="Texture2D" uid="uid://doy5aaltr38l8" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/W/demonlord_default_idle_W_180.0_6.png" id="384_yj64j"]
+[ext_resource type="Texture2D" uid="uid://0d4m24i58e2k" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_idle/W/demonlord_default_idle_W_180.0_7.png" id="385_5laaa"]
+[ext_resource type="Texture2D" uid="uid://cyadh0dcohmew" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/E/demonlord_default_walk_E_0.0_0.png" id="386_6r6x6"]
+[ext_resource type="Texture2D" uid="uid://dkojvjmflt5l8" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/E/demonlord_default_walk_E_0.0_1.png" id="387_0100y"]
+[ext_resource type="Texture2D" uid="uid://csys00hgspkse" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/E/demonlord_default_walk_E_0.0_2.png" id="388_wiwhc"]
+[ext_resource type="Texture2D" uid="uid://v8wb2yaf3ld3" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/E/demonlord_default_walk_E_0.0_3.png" id="389_y2qon"]
+[ext_resource type="Texture2D" uid="uid://cq3bfp6eqap18" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/E/demonlord_default_walk_E_0.0_4.png" id="390_307ah"]
+[ext_resource type="Texture2D" uid="uid://cd80ydiu71lmm" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/E/demonlord_default_walk_E_0.0_5.png" id="391_0aroq"]
+[ext_resource type="Texture2D" uid="uid://dkvm02btlhrvn" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/E/demonlord_default_walk_E_0.0_6.png" id="392_d2tqy"]
+[ext_resource type="Texture2D" uid="uid://5hux22l6ew8h" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/E/demonlord_default_walk_E_0.0_7.png" id="393_87mwy"]
+[ext_resource type="Texture2D" uid="uid://tppamiwg3dov" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/N/demonlord_default_walk_N_90.0_0.png" id="394_pcxdc"]
+[ext_resource type="Texture2D" uid="uid://dvkutf41lradm" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/N/demonlord_default_walk_N_90.0_1.png" id="395_dw76c"]
+[ext_resource type="Texture2D" uid="uid://mict5qg30e3p" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/N/demonlord_default_walk_N_90.0_2.png" id="396_ip7a4"]
+[ext_resource type="Texture2D" uid="uid://c2gh66q4bdgsb" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/N/demonlord_default_walk_N_90.0_3.png" id="397_yyvqm"]
+[ext_resource type="Texture2D" uid="uid://cckfnirth7v8d" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/N/demonlord_default_walk_N_90.0_4.png" id="398_bl854"]
+[ext_resource type="Texture2D" uid="uid://dwppghioeay8j" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/N/demonlord_default_walk_N_90.0_5.png" id="399_elpf0"]
+[ext_resource type="Texture2D" uid="uid://btbfk7pnt082y" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/N/demonlord_default_walk_N_90.0_6.png" id="400_e0alw"]
+[ext_resource type="Texture2D" uid="uid://b11cn2uqb0w4f" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/N/demonlord_default_walk_N_90.0_7.png" id="401_wh1jf"]
+[ext_resource type="Texture2D" uid="uid://c8nj2vkgufp7t" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/NE/demonlord_default_walk_NE_45.0_0.png" id="402_ikmsk"]
+[ext_resource type="Texture2D" uid="uid://daksu4draboxw" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/NE/demonlord_default_walk_NE_45.0_1.png" id="403_6bxb5"]
+[ext_resource type="Texture2D" uid="uid://d2b6q5yppl6c2" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/NE/demonlord_default_walk_NE_45.0_2.png" id="404_m3ftl"]
+[ext_resource type="Texture2D" uid="uid://b5jch6kiacl0k" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/NE/demonlord_default_walk_NE_45.0_3.png" id="405_alq2u"]
+[ext_resource type="Texture2D" uid="uid://cu3aa3xbas8r0" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/NE/demonlord_default_walk_NE_45.0_4.png" id="406_ym0nm"]
+[ext_resource type="Texture2D" uid="uid://d4aji386m2prv" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/NE/demonlord_default_walk_NE_45.0_5.png" id="407_o3q8f"]
+[ext_resource type="Texture2D" uid="uid://cwiplahjq7pol" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/NE/demonlord_default_walk_NE_45.0_6.png" id="408_dgcy3"]
+[ext_resource type="Texture2D" uid="uid://cs2n7gpncqrjx" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/NE/demonlord_default_walk_NE_45.0_7.png" id="409_84glf"]
+[ext_resource type="Texture2D" uid="uid://da0lwppy5134h" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/NEE/demonlord_default_walk_NEE_22.5_0.png" id="410_shqpc"]
+[ext_resource type="Texture2D" uid="uid://io7j6koi8tgw" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/NEE/demonlord_default_walk_NEE_22.5_1.png" id="411_1sqol"]
+[ext_resource type="Texture2D" uid="uid://yyb414a4t6vk" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/NEE/demonlord_default_walk_NEE_22.5_2.png" id="412_vs7lf"]
+[ext_resource type="Texture2D" uid="uid://c3wp3qy5pn4c" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/NEE/demonlord_default_walk_NEE_22.5_3.png" id="413_7yx4j"]
+[ext_resource type="Texture2D" uid="uid://dlphih6ycngsh" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/NEE/demonlord_default_walk_NEE_22.5_4.png" id="414_rbhwx"]
+[ext_resource type="Texture2D" uid="uid://byxaishijhfq6" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/NEE/demonlord_default_walk_NEE_22.5_5.png" id="415_lxx5b"]
+[ext_resource type="Texture2D" uid="uid://bb8ni0p7uxbxj" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/NEE/demonlord_default_walk_NEE_22.5_6.png" id="416_o4xvp"]
+[ext_resource type="Texture2D" uid="uid://dpatesclvg0nq" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/NEE/demonlord_default_walk_NEE_22.5_7.png" id="417_ulbi3"]
+[ext_resource type="Texture2D" uid="uid://b0xfkad6kkr3" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/NNE/demonlord_default_walk_NNE_67.5_0.png" id="418_nfbxq"]
+[ext_resource type="Texture2D" uid="uid://bq68ry4ki3jnd" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/NNE/demonlord_default_walk_NNE_67.5_1.png" id="419_lt3xc"]
+[ext_resource type="Texture2D" uid="uid://cfl485bl3aqnw" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/NNE/demonlord_default_walk_NNE_67.5_2.png" id="420_5u4l8"]
+[ext_resource type="Texture2D" uid="uid://dhh7hbg80cxd" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/NNE/demonlord_default_walk_NNE_67.5_3.png" id="421_j2xyo"]
+[ext_resource type="Texture2D" uid="uid://demon6g1l50eo" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/NNE/demonlord_default_walk_NNE_67.5_4.png" id="422_vxjfo"]
+[ext_resource type="Texture2D" uid="uid://cwi3gw62nai3x" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/NNE/demonlord_default_walk_NNE_67.5_5.png" id="423_yy0oj"]
+[ext_resource type="Texture2D" uid="uid://bmtebm7dasynf" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/NNE/demonlord_default_walk_NNE_67.5_6.png" id="424_qacjl"]
+[ext_resource type="Texture2D" uid="uid://i0hso3hf5fmj" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/NNE/demonlord_default_walk_NNE_67.5_7.png" id="425_ars1d"]
+[ext_resource type="Texture2D" uid="uid://syvn2xlut4eo" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/NNW/demonlord_default_walk_NNW_112.5_0.png" id="426_73snu"]
+[ext_resource type="Texture2D" uid="uid://cxng7dvev4bms" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/NNW/demonlord_default_walk_NNW_112.5_1.png" id="427_8ud56"]
+[ext_resource type="Texture2D" uid="uid://ce8vggayp3pve" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/NNW/demonlord_default_walk_NNW_112.5_2.png" id="428_o3yjd"]
+[ext_resource type="Texture2D" uid="uid://cy3p8qecfrs66" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/NNW/demonlord_default_walk_NNW_112.5_3.png" id="429_drrrw"]
+[ext_resource type="Texture2D" uid="uid://bwlojl4ugrsbf" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/NNW/demonlord_default_walk_NNW_112.5_4.png" id="430_gdygy"]
+[ext_resource type="Texture2D" uid="uid://bknbindw1pdhc" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/NNW/demonlord_default_walk_NNW_112.5_5.png" id="431_it7ss"]
+[ext_resource type="Texture2D" uid="uid://buclp0qt005i1" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/NNW/demonlord_default_walk_NNW_112.5_6.png" id="432_egkp2"]
+[ext_resource type="Texture2D" uid="uid://c4lpah083hoxd" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/NNW/demonlord_default_walk_NNW_112.5_7.png" id="433_0tfih"]
+[ext_resource type="Texture2D" uid="uid://cd6vm17asd2ku" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/NW/demonlord_default_walk_NW_135.0_0.png" id="434_a6kli"]
+[ext_resource type="Texture2D" uid="uid://csf3in55sahdt" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/NW/demonlord_default_walk_NW_135.0_1.png" id="435_4seyr"]
+[ext_resource type="Texture2D" uid="uid://bko81jvwnkd6w" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/NW/demonlord_default_walk_NW_135.0_2.png" id="436_qc0gq"]
+[ext_resource type="Texture2D" uid="uid://bgw3tyixyn6k2" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/NW/demonlord_default_walk_NW_135.0_3.png" id="437_kma7b"]
+[ext_resource type="Texture2D" uid="uid://4q0gf78e53og" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/NW/demonlord_default_walk_NW_135.0_4.png" id="438_bqdwp"]
+[ext_resource type="Texture2D" uid="uid://docxrm1d0ibp8" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/NW/demonlord_default_walk_NW_135.0_5.png" id="439_owoah"]
+[ext_resource type="Texture2D" uid="uid://rnpopgpib7q" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/NW/demonlord_default_walk_NW_135.0_6.png" id="440_0o26p"]
+[ext_resource type="Texture2D" uid="uid://cw7cb2540cbpq" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/NW/demonlord_default_walk_NW_135.0_7.png" id="441_bbaev"]
+[ext_resource type="Texture2D" uid="uid://x3kaoi4ealdb" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/NWW/demonlord_default_walk_NWW_157.5_0.png" id="442_qyah1"]
+[ext_resource type="Texture2D" uid="uid://ba57kuum7c3nk" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/NWW/demonlord_default_walk_NWW_157.5_1.png" id="443_4tgot"]
+[ext_resource type="Texture2D" uid="uid://bfdg71gjj5155" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/NWW/demonlord_default_walk_NWW_157.5_2.png" id="444_tcv3b"]
+[ext_resource type="Texture2D" uid="uid://d2psfm5er61iq" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/NWW/demonlord_default_walk_NWW_157.5_3.png" id="445_cpox8"]
+[ext_resource type="Texture2D" uid="uid://4uu5lga3mpys" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/NWW/demonlord_default_walk_NWW_157.5_4.png" id="446_uyubi"]
+[ext_resource type="Texture2D" uid="uid://g08tbta7qmpd" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/NWW/demonlord_default_walk_NWW_157.5_5.png" id="447_yygey"]
+[ext_resource type="Texture2D" uid="uid://b4116oiq6lf6r" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/NWW/demonlord_default_walk_NWW_157.5_6.png" id="448_kqnxn"]
+[ext_resource type="Texture2D" uid="uid://cdxue0oxnkpj4" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/NWW/demonlord_default_walk_NWW_157.5_7.png" id="449_0665q"]
+[ext_resource type="Texture2D" uid="uid://ck0nmhfhb1xuk" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/S/demonlord_default_walk_S_270.0_0.png" id="450_2v2p8"]
+[ext_resource type="Texture2D" uid="uid://640pwsoq8e1w" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/S/demonlord_default_walk_S_270.0_1.png" id="451_1kdc8"]
+[ext_resource type="Texture2D" uid="uid://bemejk71gepwh" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/S/demonlord_default_walk_S_270.0_2.png" id="452_s8id1"]
+[ext_resource type="Texture2D" uid="uid://th33jbsrm7er" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/S/demonlord_default_walk_S_270.0_3.png" id="453_um213"]
+[ext_resource type="Texture2D" uid="uid://c0316sve3u5xe" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/S/demonlord_default_walk_S_270.0_4.png" id="454_7or4o"]
+[ext_resource type="Texture2D" uid="uid://bn8ijl5jypi06" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/S/demonlord_default_walk_S_270.0_5.png" id="455_ltjw5"]
+[ext_resource type="Texture2D" uid="uid://cj88ie4l1o8o4" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/S/demonlord_default_walk_S_270.0_6.png" id="456_bya3h"]
+[ext_resource type="Texture2D" uid="uid://cocr5oym5uyf6" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/S/demonlord_default_walk_S_270.0_7.png" id="457_0j06p"]
+[ext_resource type="Texture2D" uid="uid://b6jk616ocylwe" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/SE/demonlord_default_walk_SE_315.0_0.png" id="458_8gnj1"]
+[ext_resource type="Texture2D" uid="uid://b1s3fh7ive54o" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/SE/demonlord_default_walk_SE_315.0_1.png" id="459_dusgj"]
+[ext_resource type="Texture2D" uid="uid://cg83pqte2t2mi" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/SE/demonlord_default_walk_SE_315.0_2.png" id="460_6k3bs"]
+[ext_resource type="Texture2D" uid="uid://cxyprobxq7n47" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/SE/demonlord_default_walk_SE_315.0_3.png" id="461_o7xp3"]
+[ext_resource type="Texture2D" uid="uid://c6c1ec7twvakf" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/SE/demonlord_default_walk_SE_315.0_4.png" id="462_kcgla"]
+[ext_resource type="Texture2D" uid="uid://ctoi0w8f6ofcp" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/SE/demonlord_default_walk_SE_315.0_5.png" id="463_vgoxo"]
+[ext_resource type="Texture2D" uid="uid://grpw1lbvmvdm" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/SE/demonlord_default_walk_SE_315.0_6.png" id="464_66owk"]
+[ext_resource type="Texture2D" uid="uid://cpt8m0dl0bptp" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/SE/demonlord_default_walk_SE_315.0_7.png" id="465_rdis4"]
+[ext_resource type="Texture2D" uid="uid://ci4j0bhkp1oft" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/SEE/demonlord_default_walk_SEE_337.5_0.png" id="466_rmjlk"]
+[ext_resource type="Texture2D" uid="uid://b2eye1mpeeq6a" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/SEE/demonlord_default_walk_SEE_337.5_1.png" id="467_65llh"]
+[ext_resource type="Texture2D" uid="uid://dojshr17phoki" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/SEE/demonlord_default_walk_SEE_337.5_2.png" id="468_yqcye"]
+[ext_resource type="Texture2D" uid="uid://c5gkhw0fbadwr" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/SEE/demonlord_default_walk_SEE_337.5_3.png" id="469_420f4"]
+[ext_resource type="Texture2D" uid="uid://bxgd58b1oq7e5" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/SEE/demonlord_default_walk_SEE_337.5_4.png" id="470_6v0dq"]
+[ext_resource type="Texture2D" uid="uid://qmbf1lvfrqf" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/SEE/demonlord_default_walk_SEE_337.5_5.png" id="471_0damh"]
+[ext_resource type="Texture2D" uid="uid://bky037ivm3r28" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/SEE/demonlord_default_walk_SEE_337.5_6.png" id="472_b20vp"]
+[ext_resource type="Texture2D" uid="uid://dcildjxpjem2m" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/SEE/demonlord_default_walk_SEE_337.5_7.png" id="473_jugw0"]
+[ext_resource type="Texture2D" uid="uid://s4giskq01v6c" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/SSE/demonlord_default_walk_SSE_292.5_0.png" id="474_djoyf"]
+[ext_resource type="Texture2D" uid="uid://b4pttawtrel6o" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/SSE/demonlord_default_walk_SSE_292.5_1.png" id="475_b5ayq"]
+[ext_resource type="Texture2D" uid="uid://dwbnobcqsdp2s" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/SSE/demonlord_default_walk_SSE_292.5_2.png" id="476_708b4"]
+[ext_resource type="Texture2D" uid="uid://y3nljft4rhbx" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/SSE/demonlord_default_walk_SSE_292.5_3.png" id="477_ucujm"]
+[ext_resource type="Texture2D" uid="uid://odggpkwpgnd7" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/SSE/demonlord_default_walk_SSE_292.5_4.png" id="478_pwyt2"]
+[ext_resource type="Texture2D" uid="uid://dpy86gvaxkvdu" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/SSE/demonlord_default_walk_SSE_292.5_5.png" id="479_kx4kl"]
+[ext_resource type="Texture2D" uid="uid://dxywiu12nbj6p" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/SSE/demonlord_default_walk_SSE_292.5_6.png" id="480_mvoka"]
+[ext_resource type="Texture2D" uid="uid://b0nkxjuyxvcdw" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/SSE/demonlord_default_walk_SSE_292.5_7.png" id="481_i0oi5"]
+[ext_resource type="Texture2D" uid="uid://cxn2qh753lyfk" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/SSW/demonlord_default_walk_SSW_247.5_0.png" id="482_hl88o"]
+[ext_resource type="Texture2D" uid="uid://d3uq1mpld0gjv" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/SSW/demonlord_default_walk_SSW_247.5_1.png" id="483_eds53"]
+[ext_resource type="Texture2D" uid="uid://vipbsc7vrtxo" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/SSW/demonlord_default_walk_SSW_247.5_2.png" id="484_opjgq"]
+[ext_resource type="Texture2D" uid="uid://d2rayr8tw1stq" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/SSW/demonlord_default_walk_SSW_247.5_3.png" id="485_8ceei"]
+[ext_resource type="Texture2D" uid="uid://cpip0e51bqjiw" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/SSW/demonlord_default_walk_SSW_247.5_4.png" id="486_kvig5"]
+[ext_resource type="Texture2D" uid="uid://dcl6ywwmhpj" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/SSW/demonlord_default_walk_SSW_247.5_5.png" id="487_w3o1u"]
+[ext_resource type="Texture2D" uid="uid://du3ekvk78ivav" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/SSW/demonlord_default_walk_SSW_247.5_6.png" id="488_qgvtj"]
+[ext_resource type="Texture2D" uid="uid://ec4liomitimu" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/SSW/demonlord_default_walk_SSW_247.5_7.png" id="489_oje7e"]
+[ext_resource type="Texture2D" uid="uid://d0jgbj5248tri" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/SW/demonlord_default_walk_SW_225.0_0.png" id="490_gigqn"]
+[ext_resource type="Texture2D" uid="uid://dops7pwwqy4xw" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/SW/demonlord_default_walk_SW_225.0_1.png" id="491_0wy6w"]
+[ext_resource type="Texture2D" uid="uid://cvli5dk8e7rpb" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/SW/demonlord_default_walk_SW_225.0_2.png" id="492_evnta"]
+[ext_resource type="Texture2D" uid="uid://dquqe4v6e74pk" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/SW/demonlord_default_walk_SW_225.0_3.png" id="493_8iskg"]
+[ext_resource type="Texture2D" uid="uid://o7mbg2i7f102" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/SW/demonlord_default_walk_SW_225.0_4.png" id="494_ihv8i"]
+[ext_resource type="Texture2D" uid="uid://d2180lfnpcj47" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/SW/demonlord_default_walk_SW_225.0_5.png" id="495_5prq6"]
+[ext_resource type="Texture2D" uid="uid://d0c0cvl3axnkq" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/SW/demonlord_default_walk_SW_225.0_6.png" id="496_lciyf"]
+[ext_resource type="Texture2D" uid="uid://bb4nfnnf4ltiu" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/SW/demonlord_default_walk_SW_225.0_7.png" id="497_quwwy"]
+[ext_resource type="Texture2D" uid="uid://1nkgwsybjur0" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/SWW/demonlord_default_walk_SWW_202.5_0.png" id="498_d7jlg"]
+[ext_resource type="Texture2D" uid="uid://pjpuc5bikmar" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/SWW/demonlord_default_walk_SWW_202.5_1.png" id="499_nv1f2"]
+[ext_resource type="Texture2D" uid="uid://j68licwpl3p6" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/SWW/demonlord_default_walk_SWW_202.5_2.png" id="500_rvf0q"]
+[ext_resource type="Texture2D" uid="uid://4ukjxl01742r" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/SWW/demonlord_default_walk_SWW_202.5_3.png" id="501_bk8p8"]
+[ext_resource type="Texture2D" uid="uid://ds32lu76x7hgc" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/SWW/demonlord_default_walk_SWW_202.5_4.png" id="502_6s3em"]
+[ext_resource type="Texture2D" uid="uid://biuijpl8huus2" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/SWW/demonlord_default_walk_SWW_202.5_5.png" id="503_knpro"]
+[ext_resource type="Texture2D" uid="uid://by2hu23vip4ci" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/SWW/demonlord_default_walk_SWW_202.5_6.png" id="504_4c4tm"]
+[ext_resource type="Texture2D" uid="uid://dlo6q8laa5w2i" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/SWW/demonlord_default_walk_SWW_202.5_7.png" id="505_xunpx"]
+[ext_resource type="Texture2D" uid="uid://bhj60kyrow8cc" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/W/demonlord_default_walk_W_180.0_0.png" id="506_7xl6v"]
+[ext_resource type="Texture2D" uid="uid://baa85wuti50fo" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/W/demonlord_default_walk_W_180.0_1.png" id="507_dcws3"]
+[ext_resource type="Texture2D" uid="uid://c0v00yf8pu2tr" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/W/demonlord_default_walk_W_180.0_2.png" id="508_whkno"]
+[ext_resource type="Texture2D" uid="uid://dxvhs0dxdohb1" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/W/demonlord_default_walk_W_180.0_3.png" id="509_l75yl"]
+[ext_resource type="Texture2D" uid="uid://etmhpri0at3" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/W/demonlord_default_walk_W_180.0_4.png" id="510_jvx1t"]
+[ext_resource type="Texture2D" uid="uid://cjrcqdci54r1l" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/W/demonlord_default_walk_W_180.0_5.png" id="511_hr872"]
+[ext_resource type="Texture2D" uid="uid://dqu53nvlwusak" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/W/demonlord_default_walk_W_180.0_6.png" id="512_31hii"]
+[ext_resource type="Texture2D" uid="uid://bsjgv0pp7wg0u" path="res://asset/Lords Of Pain - Old School Isometric Assets/boss/demonlord/demonlord_default_walk/W/demonlord_default_walk_W_180.0_7.png" id="513_icbou"]
+[ext_resource type="FontFile" uid="uid://dg0whh4ceykhf" path="res://Carlito-Regular.ttf" id="514_pgl1v"]
+[ext_resource type="AudioStream" uid="uid://dvptoek86wn4" path="res://sfx/Scary Demon Scream Sound! - Royalty Beat SFX.mp3" id="515_hlryo"]
+[ext_resource type="AudioStream" uid="uid://cgc1ricagjcgq" path="res://RPG Starter Pack III/Prelude to War/Prelude_to_War_[Full Song].wav" id="516_pgl1v"]
+[ext_resource type="AudioStream" uid="uid://devwo3byev06a" path="res://dl_you_fools_let_them_escape.wav" id="517_80y4k"]
+[ext_resource type="AudioStream" uid="uid://clet0kjhyeynr" path="res://Giant footsteps Sound Effect - Sound Effect Database.mp3" id="520_srgxh"]
+[ext_resource type="AudioStream" uid="uid://biu7ek8bsbq2j" path="res://sfx/War hammer swing (Sound effect) - BoostSound (mp3cut.net) (1).mp3" id="520_wy33b"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_r4xgw"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_ob4lw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_hlryo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_pgl1v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_80y4k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_ybpav")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_wjltk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_srgxh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_wy33b")
+}],
+"loop": true,
+"name": &"attack_E",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("10_pbhx7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_6cet7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_p71s4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_7wlwd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_st28o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_w4ats")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_pg7j6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_actvg")
+}],
+"loop": true,
+"name": &"attack_N",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("18_rxv4a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_vx2yy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_beb0t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_2s0tq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_f58dv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_tbea0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_xn0kg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_jgkq2")
+}],
+"loop": true,
+"name": &"attack_NE",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("26_k1b0y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_8ovrx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_t5wci")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_y7hx6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_nurri")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_72p7a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_vbvnh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_oax3q")
+}],
+"loop": true,
+"name": &"attack_NEE",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("34_s2g4w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_sd4md")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_awics")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_knnqv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_4plny")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_ipb7b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_1644y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_63lnm")
+}],
+"loop": true,
+"name": &"attack_NNE",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("42_8d2w8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_tcgj0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_kwovg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_bauku")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_lkets")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_1bunf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_181h3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_7mjpq")
+}],
+"loop": true,
+"name": &"attack_NNW",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("50_7otge")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_nqw2p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_o6m2o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_tq2fq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_q24fi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_gfdv8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_cigpj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_kc8gf")
+}],
+"loop": true,
+"name": &"attack_NW",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("58_4lqt8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59_xgbl0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60_eqmrq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61_ao7g5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62_bvp1f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63_n84c0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64_457kp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("65_e12go")
+}],
+"loop": true,
+"name": &"attack_NWW",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("66_sj3vc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("67_m165p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("68_c4p2t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("69_cx3si")
+}, {
+"duration": 1.0,
+"texture": ExtResource("70_nchek")
+}, {
+"duration": 1.0,
+"texture": ExtResource("71_xdcm7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("72_6gd1g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("73_dsbrb")
+}],
+"loop": true,
+"name": &"attack_S",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("74_v271s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("75_7vma6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("76_4ksot")
+}, {
+"duration": 1.0,
+"texture": ExtResource("77_yqifs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("78_u62ke")
+}, {
+"duration": 1.0,
+"texture": ExtResource("79_p3q2h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("80_tg7pb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("81_1qoqo")
+}],
+"loop": true,
+"name": &"attack_SE",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("82_3vlym")
+}, {
+"duration": 1.0,
+"texture": ExtResource("83_7i25w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("84_ndgx1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("85_hoo4g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("86_te5a4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("87_yxy3u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("88_xqlnv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("89_6eoxg")
+}],
+"loop": true,
+"name": &"attack_SEE",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("90_2b043")
+}, {
+"duration": 1.0,
+"texture": ExtResource("91_5yyrp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("92_747k1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("93_t1gle")
+}, {
+"duration": 1.0,
+"texture": ExtResource("94_hnbfu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("95_l4pex")
+}, {
+"duration": 1.0,
+"texture": ExtResource("96_ji8uq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("97_dsvns")
+}],
+"loop": true,
+"name": &"attack_SSE",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("98_givkp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("99_ntn7t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("100_ws4a5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("101_gv38c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("102_7mliy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("103_55eaa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("104_5j2yv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("105_hmga3")
+}],
+"loop": true,
+"name": &"attack_SSW",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("106_lmbbs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("107_77t33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("108_3umqw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("109_x5mx1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("110_umi2f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("111_yygmw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("112_r71lb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("113_g0muo")
+}],
+"loop": true,
+"name": &"attack_SW",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("114_m6167")
+}, {
+"duration": 1.0,
+"texture": ExtResource("115_3u6yt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("116_w1h27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("117_u531f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("118_7a7or")
+}, {
+"duration": 1.0,
+"texture": ExtResource("119_ghh4c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("120_h0kyc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("121_btf8o")
+}],
+"loop": true,
+"name": &"attack_SWW",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("122_d3l8f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("123_8frg8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("124_w7jqt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("125_d6bvf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("126_t2nw3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("127_xrtip")
+}, {
+"duration": 1.0,
+"texture": ExtResource("128_iw7fr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("129_qpcf8")
+}],
+"loop": true,
+"name": &"attack_W",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("130_0hbwa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("131_ob4lw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("132_hlryo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("133_pgl1v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("134_80y4k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("135_ybpav")
+}, {
+"duration": 1.0,
+"texture": ExtResource("136_wjltk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("137_srgxh")
+}],
+"loop": true,
+"name": &"death_E",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("138_wy33b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("139_pbhx7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("140_6cet7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("141_p71s4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("142_7wlwd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("143_st28o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("144_w4ats")
+}, {
+"duration": 1.0,
+"texture": ExtResource("145_pg7j6")
+}],
+"loop": true,
+"name": &"death_N",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("146_actvg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("147_rxv4a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("148_vx2yy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("149_beb0t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("150_2s0tq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("151_f58dv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("152_tbea0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("153_xn0kg")
+}],
+"loop": true,
+"name": &"death_NE",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("154_jgkq2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("155_k1b0y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("156_8ovrx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("157_t5wci")
+}, {
+"duration": 1.0,
+"texture": ExtResource("158_y7hx6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("159_nurri")
+}, {
+"duration": 1.0,
+"texture": ExtResource("160_72p7a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("161_vbvnh")
+}],
+"loop": true,
+"name": &"death_NEE",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("162_oax3q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("163_s2g4w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("164_sd4md")
+}, {
+"duration": 1.0,
+"texture": ExtResource("165_awics")
+}, {
+"duration": 1.0,
+"texture": ExtResource("166_knnqv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("167_4plny")
+}, {
+"duration": 1.0,
+"texture": ExtResource("168_ipb7b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("169_1644y")
+}],
+"loop": true,
+"name": &"death_NNE",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("170_63lnm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("171_8d2w8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("172_tcgj0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("173_kwovg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("174_bauku")
+}, {
+"duration": 1.0,
+"texture": ExtResource("175_lkets")
+}, {
+"duration": 1.0,
+"texture": ExtResource("176_1bunf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("177_181h3")
+}],
+"loop": true,
+"name": &"death_NNW",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("178_7mjpq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("179_7otge")
+}, {
+"duration": 1.0,
+"texture": ExtResource("180_nqw2p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("181_o6m2o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("182_tq2fq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("183_q24fi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("184_gfdv8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("185_cigpj")
+}],
+"loop": true,
+"name": &"death_NW",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("186_kc8gf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("187_4lqt8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("188_xgbl0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("189_eqmrq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("190_ao7g5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("191_bvp1f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("192_n84c0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("193_457kp")
+}],
+"loop": true,
+"name": &"death_NWW",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("194_e12go")
+}, {
+"duration": 1.0,
+"texture": ExtResource("195_sj3vc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("196_m165p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("197_c4p2t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("198_cx3si")
+}, {
+"duration": 1.0,
+"texture": ExtResource("199_nchek")
+}, {
+"duration": 1.0,
+"texture": ExtResource("200_xdcm7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("201_6gd1g")
+}],
+"loop": true,
+"name": &"death_S",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("202_dsbrb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("203_v271s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("204_7vma6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("205_4ksot")
+}, {
+"duration": 1.0,
+"texture": ExtResource("206_yqifs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("207_u62ke")
+}, {
+"duration": 1.0,
+"texture": ExtResource("208_p3q2h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("209_tg7pb")
+}],
+"loop": true,
+"name": &"death_SE",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("210_1qoqo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("211_3vlym")
+}, {
+"duration": 1.0,
+"texture": ExtResource("212_7i25w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("213_ndgx1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("214_hoo4g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("215_te5a4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("216_yxy3u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("217_xqlnv")
+}],
+"loop": true,
+"name": &"death_SEE",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("218_6eoxg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("219_2b043")
+}, {
+"duration": 1.0,
+"texture": ExtResource("220_5yyrp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("221_747k1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("222_t1gle")
+}, {
+"duration": 1.0,
+"texture": ExtResource("223_hnbfu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("224_l4pex")
+}, {
+"duration": 1.0,
+"texture": ExtResource("225_ji8uq")
+}],
+"loop": true,
+"name": &"death_SSE",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("226_dsvns")
+}, {
+"duration": 1.0,
+"texture": ExtResource("227_givkp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("228_ntn7t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("229_ws4a5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("230_gv38c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("231_7mliy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("232_55eaa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("233_5j2yv")
+}],
+"loop": true,
+"name": &"death_SSW",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("234_hmga3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("235_lmbbs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("236_77t33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("237_3umqw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("238_x5mx1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("239_umi2f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("240_yygmw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("241_r71lb")
+}],
+"loop": true,
+"name": &"death_SW",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("242_g0muo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("243_m6167")
+}, {
+"duration": 1.0,
+"texture": ExtResource("244_3u6yt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("245_w1h27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("246_u531f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("247_7a7or")
+}, {
+"duration": 1.0,
+"texture": ExtResource("248_ghh4c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("249_h0kyc")
+}],
+"loop": true,
+"name": &"death_SWW",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("250_btf8o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("251_d3l8f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("252_8frg8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("253_w7jqt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("254_d6bvf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("255_t2nw3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("256_xrtip")
+}, {
+"duration": 1.0,
+"texture": ExtResource("257_iw7fr")
+}],
+"loop": true,
+"name": &"death_W",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("258_buwqh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("259_dppld")
+}, {
+"duration": 1.0,
+"texture": ExtResource("260_ow3m0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("261_v1uj7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("262_uonqx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("263_7ne2d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("264_yn5d2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("265_77f3l")
+}],
+"loop": true,
+"name": &"idle_E",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("266_5vk2h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("267_pfe5e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("268_gdsr8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("269_3eqe6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("270_8d5rs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("271_ljfmx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("272_fwtcn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("273_1gdd5")
+}],
+"loop": true,
+"name": &"idle_N",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("274_ltncs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("275_81s8l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("276_8cf0w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("277_q1c54")
+}, {
+"duration": 1.0,
+"texture": ExtResource("278_w64sn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("279_4abf1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("280_6ahlg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("281_w4y1c")
+}],
+"loop": true,
+"name": &"idle_NE",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("282_bdfi3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("283_nsjh3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("284_g744t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("285_1g3xk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("286_cli6o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("287_urg1t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("288_3x3gi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("289_lhpxu")
+}],
+"loop": true,
+"name": &"idle_NEE",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("290_mcitm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("291_5vpf4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("292_3xo84")
+}, {
+"duration": 1.0,
+"texture": ExtResource("293_qm2ma")
+}, {
+"duration": 1.0,
+"texture": ExtResource("294_6metl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("295_42xoo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("296_yq68k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("297_fa1t2")
+}],
+"loop": true,
+"name": &"idle_NNE",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("298_oneb4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("299_jq4mm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("300_nwygu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("301_w76kq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("302_y4xwv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("303_b2ojo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("304_lbmpj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("305_wkhrh")
+}],
+"loop": true,
+"name": &"idle_NNW",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("306_v5ov0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("307_s2d5e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("308_c78a0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("309_rkqya")
+}, {
+"duration": 1.0,
+"texture": ExtResource("310_r722w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("311_oev4o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("312_4tdv3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("313_yohpg")
+}],
+"loop": true,
+"name": &"idle_NW",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("314_32k6q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("315_f5aqw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("316_ier61")
+}, {
+"duration": 1.0,
+"texture": ExtResource("317_c60sq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("318_f4vwa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("319_xiesc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("320_lluyk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("321_u8u8s")
+}],
+"loop": true,
+"name": &"idle_NWW",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("322_l147m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("323_s0wxb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("324_451f1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("325_ius3p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("326_xd1qt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("327_4bbo5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("328_el72a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("329_37kv3")
+}],
+"loop": true,
+"name": &"idle_S",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("330_0jnk6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("331_2gc7u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("332_cds0h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("333_a6kjy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("334_742sl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("335_t4cxv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("336_5nnsb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("337_l0ebb")
+}],
+"loop": true,
+"name": &"idle_SE",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("338_xlqox")
+}, {
+"duration": 1.0,
+"texture": ExtResource("339_qjbk3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("340_s7b1e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("341_gxekw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("342_5bs07")
+}, {
+"duration": 1.0,
+"texture": ExtResource("343_soocg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("344_tqln8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("345_vswk8")
+}],
+"loop": true,
+"name": &"idle_SEE",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("346_y6ovp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("347_xy08q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("348_hgo4r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("349_6k8pt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("350_3iake")
+}, {
+"duration": 1.0,
+"texture": ExtResource("351_51xyt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("352_sil8s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("353_vbmli")
+}],
+"loop": true,
+"name": &"idle_SSE",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("354_7yfps")
+}, {
+"duration": 1.0,
+"texture": ExtResource("355_vt3sw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("356_ljetq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("357_deemv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("358_tj8f6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("359_3fvwc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("360_wo5tk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("361_bc1d2")
+}],
+"loop": true,
+"name": &"idle_SSW",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("362_b074v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("363_wqtyn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("364_n57tq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("365_llole")
+}, {
+"duration": 1.0,
+"texture": ExtResource("366_fpwgi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("367_swkgr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("368_1petq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("369_dpwip")
+}],
+"loop": true,
+"name": &"idle_SW",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("370_knhit")
+}, {
+"duration": 1.0,
+"texture": ExtResource("371_v7jhi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("372_1adbf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("373_mm3f1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("374_vkik2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("375_bjqdy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("376_qus7k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("377_ucvox")
+}],
+"loop": true,
+"name": &"idle_SWW",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("378_11knq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("379_xkvb1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("380_gputf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("381_e7nbe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("382_2i1gl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("383_vupva")
+}, {
+"duration": 1.0,
+"texture": ExtResource("384_yj64j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("385_5laaa")
+}],
+"loop": true,
+"name": &"idle_W",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("386_6r6x6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("387_0100y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("388_wiwhc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("389_y2qon")
+}, {
+"duration": 1.0,
+"texture": ExtResource("390_307ah")
+}, {
+"duration": 1.0,
+"texture": ExtResource("391_0aroq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("392_d2tqy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("393_87mwy")
+}],
+"loop": true,
+"name": &"walk_E",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("394_pcxdc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("395_dw76c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("396_ip7a4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("397_yyvqm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("398_bl854")
+}, {
+"duration": 1.0,
+"texture": ExtResource("399_elpf0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("400_e0alw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("401_wh1jf")
+}],
+"loop": true,
+"name": &"walk_N",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("402_ikmsk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("403_6bxb5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("404_m3ftl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("405_alq2u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("406_ym0nm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("407_o3q8f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("408_dgcy3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("409_84glf")
+}],
+"loop": true,
+"name": &"walk_NE",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("410_shqpc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("411_1sqol")
+}, {
+"duration": 1.0,
+"texture": ExtResource("412_vs7lf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("413_7yx4j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("414_rbhwx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("415_lxx5b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("416_o4xvp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("417_ulbi3")
+}],
+"loop": true,
+"name": &"walk_NEE",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("418_nfbxq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("419_lt3xc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("420_5u4l8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("421_j2xyo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("422_vxjfo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("423_yy0oj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("424_qacjl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("425_ars1d")
+}],
+"loop": true,
+"name": &"walk_NNE",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("426_73snu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("427_8ud56")
+}, {
+"duration": 1.0,
+"texture": ExtResource("428_o3yjd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("429_drrrw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("430_gdygy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("431_it7ss")
+}, {
+"duration": 1.0,
+"texture": ExtResource("432_egkp2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("433_0tfih")
+}],
+"loop": true,
+"name": &"walk_NNW",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("434_a6kli")
+}, {
+"duration": 1.0,
+"texture": ExtResource("435_4seyr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("436_qc0gq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("437_kma7b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("438_bqdwp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("439_owoah")
+}, {
+"duration": 1.0,
+"texture": ExtResource("440_0o26p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("441_bbaev")
+}],
+"loop": true,
+"name": &"walk_NW",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("442_qyah1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("443_4tgot")
+}, {
+"duration": 1.0,
+"texture": ExtResource("444_tcv3b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("445_cpox8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("446_uyubi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("447_yygey")
+}, {
+"duration": 1.0,
+"texture": ExtResource("448_kqnxn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("449_0665q")
+}],
+"loop": true,
+"name": &"walk_NWW",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("450_2v2p8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("451_1kdc8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("452_s8id1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("453_um213")
+}, {
+"duration": 1.0,
+"texture": ExtResource("454_7or4o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("455_ltjw5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("456_bya3h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("457_0j06p")
+}],
+"loop": true,
+"name": &"walk_S",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("458_8gnj1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("459_dusgj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("460_6k3bs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("461_o7xp3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("462_kcgla")
+}, {
+"duration": 1.0,
+"texture": ExtResource("463_vgoxo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("464_66owk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("465_rdis4")
+}],
+"loop": true,
+"name": &"walk_SE",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("466_rmjlk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("467_65llh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("468_yqcye")
+}, {
+"duration": 1.0,
+"texture": ExtResource("469_420f4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("470_6v0dq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("471_0damh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("472_b20vp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("473_jugw0")
+}],
+"loop": true,
+"name": &"walk_SEE",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("474_djoyf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("475_b5ayq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("476_708b4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("477_ucujm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("478_pwyt2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("479_kx4kl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("480_mvoka")
+}, {
+"duration": 1.0,
+"texture": ExtResource("481_i0oi5")
+}],
+"loop": true,
+"name": &"walk_SSE",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("482_hl88o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("483_eds53")
+}, {
+"duration": 1.0,
+"texture": ExtResource("484_opjgq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("485_8ceei")
+}, {
+"duration": 1.0,
+"texture": ExtResource("486_kvig5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("487_w3o1u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("488_qgvtj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("489_oje7e")
+}],
+"loop": true,
+"name": &"walk_SSW",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("490_gigqn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("491_0wy6w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("492_evnta")
+}, {
+"duration": 1.0,
+"texture": ExtResource("493_8iskg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("494_ihv8i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("495_5prq6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("496_lciyf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("497_quwwy")
+}],
+"loop": true,
+"name": &"walk_SW",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("498_d7jlg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("499_nv1f2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("500_rvf0q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("501_bk8p8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("502_6s3em")
+}, {
+"duration": 1.0,
+"texture": ExtResource("503_knpro")
+}, {
+"duration": 1.0,
+"texture": ExtResource("504_4c4tm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("505_xunpx")
+}],
+"loop": true,
+"name": &"walk_SWW",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("506_7xl6v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("507_dcws3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("508_whkno")
+}, {
+"duration": 1.0,
+"texture": ExtResource("509_l75yl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("510_jvx1t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("511_hr872")
+}, {
+"duration": 1.0,
+"texture": ExtResource("512_31hii")
+}, {
+"duration": 1.0,
+"texture": ExtResource("513_icbou")
+}],
+"loop": true,
+"name": &"walk_W",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_4qyv7"]
+size = Vector2(20, 48.3333)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_eur87"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_21xgi"]
+size = Vector2(55, 76.6667)
+
+[node name="Demonlord" type="CharacterBody2D" groups=["enemy"]]
+scale = Vector2(1.2, 1.2)
+collision_layer = 8
+collision_mask = 4
+script = ExtResource("1_0hbwa")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_r4xgw")
+animation = &"attack_NE"
+frame = 3
+frame_progress = 0.362759
+
+[node name="HurtBox" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="HurtBox"]
+position = Vector2(0, -14.1667)
+shape = SubResource("RectangleShape2D_4qyv7")
+
+[node name="HitBox" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="HitBox"]
+shape = SubResource("RectangleShape2D_eur87")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-10, -22.5)
+shape = SubResource("RectangleShape2D_21xgi")
+
+[node name="Label" type="Label" parent="."]
+offset_left = -53.3333
+offset_top = -129.167
+offset_right = 76.6667
+offset_bottom = -106.167
+scale = Vector2(0.7, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_outline_size = 1
+theme_override_fonts/font = ExtResource("514_pgl1v")
+theme_override_font_sizes/font_size = 16
+text = "Demon Lord"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="death_sfx" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("515_hlryo")
+volume_db = -10.0
+
+[node name="Battle_music" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("516_pgl1v")
+volume_db = -16.0
+
+[node name="Voice" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("517_80y4k")
+volume_db = -13.0
+
+[node name="laugh" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("517_80y4k")
+volume_db = -16.0
+
+[node name="swing weapon" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("520_wy33b")
+volume_db = -16.0
+
+[node name="giant_footstep" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("520_srgxh")
+volume_db = -16.0
+parameters/looping = true
+
+[node name="HealthBoss" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="HealthBar" type="TextureProgressBar" parent="HealthBoss"]
+layout_mode = 0
+offset_left = -192.5
+offset_top = -102.5
+offset_right = 1783.5
+offset_bottom = 253.5
+scale = Vector2(0.2, 0.05)
+texture_under = ExtResource("2_srgxh")
+texture_progress = ExtResource("3_wy33b")
+
+[node name="Label2" type="Label" parent="."]
+offset_left = -257.5
+offset_top = -104.167
+offset_right = -127.5
+offset_bottom = -81.1667
+scale = Vector2(0.7, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_outline_size = 1
+theme_override_fonts/font = ExtResource("514_pgl1v")
+theme_override_font_sizes/font_size = 16
+text = "lv.250"
+horizontal_alignment = 1
+vertical_alignment = 1

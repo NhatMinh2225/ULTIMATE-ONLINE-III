@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cqs8id0o6ro0d"
+path="res://.godot/imported/Titan_March_[Medium].wav-af1c81c2d3875377ba9249cce65f497b.sample"
+
+[deps]
+
+source_file="res://RPG Starter Pack III/Titan March/Titan_March_[Medium].wav"
+dest_files=["res://.godot/imported/Titan_March_[Medium].wav-af1c81c2d3875377ba9249cce65f497b.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

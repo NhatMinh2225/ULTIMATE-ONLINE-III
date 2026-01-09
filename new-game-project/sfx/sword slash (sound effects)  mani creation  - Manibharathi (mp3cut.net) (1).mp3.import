@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://d03qkv00mbkk6"
+path="res://.godot/imported/sword slash (sound effects)  mani creation  - Manibharathi (mp3cut.net) (1).mp3-5c31b8e033172c78f1c93a9435578a8d.mp3str"
+
+[deps]
+
+source_file="res://sfx/sword slash (sound effects)  mani creation  - Manibharathi (mp3cut.net) (1).mp3"
+dest_files=["res://.godot/imported/sword slash (sound effects)  mani creation  - Manibharathi (mp3cut.net) (1).mp3-5c31b8e033172c78f1c93a9435578a8d.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

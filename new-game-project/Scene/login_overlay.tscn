@@ -1,0 +1,129 @@
+[gd_scene load_steps=9 format=3 uid="uid://biexh5pd5u3ek"]
+
+[ext_resource type="Script" uid="uid://bcr7l1gp7038q" path="res://Script/login_overlay.gd" id="1_t6jky"]
+[ext_resource type="Texture2D" uid="uid://bv2q0o3svkwhi" path="res://asset/Foozle_UI_0001_RPG_Set_1/UI_LOGIN_REGISTER-Photoroom.png" id="2_sfott"]
+[ext_resource type="Texture2D" uid="uid://chpipp1v1y4if" path="res://asset/Foozle_UI_0001_RPG_Set_1/Login_Button_Dark.png" id="3_ugqux"]
+[ext_resource type="Texture2D" uid="uid://kg2yhdw0v6m0" path="res://asset/Foozle_UI_0001_RPG_Set_1/Login_Button_Light.png" id="4_d3fkb"]
+[ext_resource type="Texture2D" uid="uid://cvwoh60hr1mm7" path="res://asset/Foozle_UI_0001_RPG_Set_1/Login_Button_1.png" id="5_8y7e2"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_sfott"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_ugqux"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_d3fkb"]
+
+[node name="LoginOverlay" type="CanvasLayer"]
+script = ExtResource("1_t6jky")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+
+[node name="TextureRect" type="TextureRect" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -262.0
+offset_top = -360.0
+offset_right = 262.0
+offset_bottom = 440.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.9, 0.9)
+texture = ExtResource("2_sfott")
+
+[node name="UsernameField" type="LineEdit" parent="TextureRect"]
+layout_mode = 0
+offset_left = 111.111
+offset_top = 275.556
+offset_right = 417.111
+offset_bottom = 306.556
+theme_override_styles/focus = SubResource("StyleBoxEmpty_sfott")
+flat = true
+
+[node name="PasswordField" type="LineEdit" parent="TextureRect"]
+layout_mode = 0
+offset_left = 111.0
+offset_top = 419.0
+offset_right = 417.0
+offset_bottom = 450.0
+theme_override_styles/focus = SubResource("StyleBoxEmpty_ugqux")
+flat = true
+
+[node name="LoginButton" type="TextureButton" parent="TextureRect"]
+layout_mode = 0
+offset_left = 94.4445
+offset_top = 488.889
+offset_right = 432.444
+offset_bottom = 553.889
+texture_normal = ExtResource("3_ugqux")
+texture_pressed = ExtResource("4_d3fkb")
+texture_hover = ExtResource("5_8y7e2")
+
+[node name="ForgotPasswordButton" type="Button" parent="TextureRect"]
+layout_mode = 0
+offset_left = 103.333
+offset_top = 568.889
+offset_right = 248.333
+offset_bottom = 599.889
+theme_override_colors/font_color = Color(0.772549, 0, 0, 1)
+theme_override_styles/focus = SubResource("StyleBoxEmpty_d3fkb")
+text = "Forgot password?"
+flat = true
+
+[node name="LostConnectionPanel" type="ColorRect" parent="TextureRect"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -426.0
+offset_right = 482.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+color = Color(0, 0, 0, 1)
+
+[node name="LostLabel" type="Label" parent="TextureRect/LostConnectionPanel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -207.0
+offset_top = -21.0
+offset_right = 207.0
+offset_bottom = 21.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 30
+text = "Connection lost. Please"
+
+[node name="RetryButton" type="Button" parent="TextureRect/LostConnectionPanel/LostLabel"]
+layout_mode = 0
+offset_left = 342.222
+offset_top = -4.44445
+offset_right = 421.222
+offset_bottom = 45.5555
+theme_override_font_sizes/font_size = 30
+flat = true
+
+[node name="RichTextLabel" type="RichTextLabel" parent="TextureRect/LostConnectionPanel/LostLabel/RetryButton"]
+layout_mode = 0
+offset_left = -2.99991
+offset_top = 3.22223
+offset_right = 129.0
+offset_bottom = 43.2222
+mouse_filter = 2
+mouse_force_pass_scroll_events = false
+theme_override_colors/default_color = Color(0.745098, 0, 0, 1)
+theme_override_font_sizes/normal_font_size = 32
+bbcode_enabled = true
+text = "[u]retry[/u]"
+scroll_active = false

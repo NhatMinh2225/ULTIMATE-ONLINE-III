@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cr6j8hmtouduj"
+path="res://.godot/imported/Breathing Male(heavy) - Sound Effect(HD) - FX Sound Warehouse.mp3-2a54befa1f7f621abbd880a32e5e4068.mp3str"
+
+[deps]
+
+source_file="res://Scene/Breathing Male(heavy) - Sound Effect(HD) - FX Sound Warehouse.mp3"
+dest_files=["res://.godot/imported/Breathing Male(heavy) - Sound Effect(HD) - FX Sound Warehouse.mp3-2a54befa1f7f621abbd880a32e5e4068.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

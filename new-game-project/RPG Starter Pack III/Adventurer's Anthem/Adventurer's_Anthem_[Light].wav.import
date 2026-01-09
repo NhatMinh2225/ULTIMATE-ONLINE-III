@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cq5xfqxi7omjw"
+path="res://.godot/imported/Adventurer's_Anthem_[Light].wav-226c15289d48ca2dde9c6c739b0f2cc9.sample"
+
+[deps]
+
+source_file="res://RPG Starter Pack III/Adventurer's Anthem/Adventurer's_Anthem_[Light].wav"
+dest_files=["res://.godot/imported/Adventurer's_Anthem_[Light].wav-226c15289d48ca2dde9c6c739b0f2cc9.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

@@ -1,0 +1,28 @@
+[gd_scene load_steps=3 format=3 uid="uid://f3ndhtel5vp3"]
+
+[ext_resource type="Script" uid="uid://cqt7xdbbcdfiw" path="res://Script/profile_ui.gd" id="1_dfyat"]
+[ext_resource type="Texture2D" uid="uid://gvrupul5mx66" path="res://Image/R.jpg" id="2_lec2j"]
+
+[node name="ProfileUI" type="CanvasLayer"]
+script = ExtResource("1_dfyat")
+
+[node name="Panel" type="Panel" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="TextureRect" type="TextureRect" parent="Panel"]
+layout_mode = 0
+offset_left = 1.52588e-05
+offset_top = 2.00003
+offset_right = 1920.0
+offset_bottom = 1082.0
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("2_lec2j")
+
+[node name="Button_Close" type="Button" parent="Panel/TextureRect"]
+layout_mode = 0
+offset_left = 1120.0
+offset_top = 4.0
+offset_right = 1295.0
+offset_bottom = 143.0
+text = "x"

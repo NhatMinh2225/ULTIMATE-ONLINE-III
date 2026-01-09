@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://53spa2a4fwgh"
+path="res://.godot/imported/Button Click - Sound Effect - Sound-Vibe (mp3cut (mp3cut.net).mp3-fe4cdc498df8b76f587e87fab6cc4204.mp3str"
+
+[deps]
+
+source_file="res://Button Click - Sound Effect - Sound-Vibe (mp3cut (mp3cut.net).mp3"
+dest_files=["res://.godot/imported/Button Click - Sound Effect - Sound-Vibe (mp3cut (mp3cut.net).mp3-fe4cdc498df8b76f587e87fab6cc4204.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

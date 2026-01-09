@@ -1,0 +1,24 @@
+[gd_scene load_steps=3 format=3 uid="uid://c513i5c4te5gn"]
+
+[ext_resource type="Texture2D" uid="uid://b6qedx8s7int2" path="res://chris-johnson-boss-bar-02-painted-removebg-preview.png" id="1_r5yfn"]
+[ext_resource type="Texture2D" uid="uid://bvrmbl7yicx37" path="res://chris-johnson-boss-bar-03-full-shadow-removebg-preview.png" id="2_a2nk3"]
+
+[node name="HealthBoss" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="HealthBar" type="TextureProgressBar" parent="."]
+visible = false
+layout_mode = 0
+offset_left = 215.0
+offset_top = -69.0
+offset_right = 2191.0
+offset_bottom = 287.0
+mouse_filter = 2
+texture_under = ExtResource("1_r5yfn")
+texture_progress = ExtResource("2_a2nk3")

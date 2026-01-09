@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://gohm01a7h0yp"
+path="res://.godot/imported/Prelude_to_War_[FadeOut].wav-2743a90cd39a629b3546e81b95f0f58a.sample"
+
+[deps]
+
+source_file="res://RPG Starter Pack III/Prelude to War/Prelude_to_War_[FadeOut].wav"
+dest_files=["res://.godot/imported/Prelude_to_War_[FadeOut].wav-2743a90cd39a629b3546e81b95f0f58a.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

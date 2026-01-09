@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=3 uid="uid://dxohrr0l7gjo2"]
+
+[ext_resource type="Script" uid="uid://b4ev8mtwhnht1" path="res://Script/turn_back_ui.gd" id="1_xm4cl"]
+
+[node name="TurnBackUI" type="CanvasLayer"]
+layer = 21
+script = ExtResource("1_xm4cl")
+
+[node name="Button" type="Button" parent="."]
+offset_left = 817.0
+offset_top = 357.0
+offset_right = 1686.0
+offset_bottom = 590.0
+scale = Vector2(0.5, 0.5)
+theme_override_font_sizes/font_size = 80
+text = "TURN BACK"

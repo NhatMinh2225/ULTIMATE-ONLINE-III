@@ -1,0 +1,30 @@
+[gd_scene load_steps=2 format=3 uid="uid://umfxe2my34dd"]
+
+[ext_resource type="Script" uid="uid://dmkywtfq6n83l" path="res://chat_ui_final.gd" id="1_m4x1h"]
+
+[node name="Chat_UI_Final" type="CanvasLayer"]
+script = ExtResource("1_m4x1h")
+
+[node name="Panel" type="Panel" parent="."]
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ChatLogFinal" type="RichTextLabel" parent="Panel"]
+custom_minimum_size = Vector2(400, 120)
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 29.0
+offset_top = -393.0
+offset_right = -579.0
+offset_bottom = -213.0
+grow_horizontal = 2
+grow_vertical = 0
+mouse_filter = 2
+bbcode_enabled = true

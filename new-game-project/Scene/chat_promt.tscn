@@ -1,0 +1,21 @@
+[gd_scene load_steps=2 format=3 uid="uid://d33nd5p6k0d5y"]
+
+[ext_resource type="Script" uid="uid://dh5nhcos2usve" path="res://Script/chat_promt.gd" id="1_lxcj3"]
+
+[node name="ChatPromt" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_lxcj3")
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ButtonChat" type="Button" parent="Panel"]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+text = "chat"

@@ -1,0 +1,35 @@
+[gd_scene load_steps=4 format=3 uid="uid://c4rdbk6ms2jg0"]
+
+[ext_resource type="Shader" uid="uid://b8gyml571ud81" path="res://shader/CTRmonitor.gdshader" id="1_sqgmo"]
+[ext_resource type="PackedScene" uid="uid://bk68ace2p6e4g" path="res://Scene/canvas_layer.tscn" id="2_q654o"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_ys6ns"]
+shader = ExtResource("1_sqgmo")
+shader_parameter/crt_curve = 0.02
+shader_parameter/crt_scan_line_color = 0.347
+shader_parameter/aperture_strength = 0.05
+shader_parameter/rf_switch_esque_blur = 1.0
+
+[node name="CTROverlay" type="CanvasLayer"]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+material = SubResource("ShaderMaterial_ys6ns")
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="CanvasLayer" parent="ColorRect" instance=ExtResource("2_q654o")]
+
+[node name="CTROverlay" type="CanvasLayer" parent="."]
+
+[node name="ColorRect" type="ColorRect" parent="CTROverlay"]
+material = SubResource("ShaderMaterial_ys6ns")
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2

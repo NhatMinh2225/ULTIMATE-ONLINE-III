@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dvptoek86wn4"
+path="res://.godot/imported/Scary Demon Scream Sound! - Royalty Beat SFX.mp3-9dc17f328bed4eb2d621dd24a0b870c6.mp3str"
+
+[deps]
+
+source_file="res://sfx/Scary Demon Scream Sound! - Royalty Beat SFX.mp3"
+dest_files=["res://.godot/imported/Scary Demon Scream Sound! - Royalty Beat SFX.mp3-9dc17f328bed4eb2d621dd24a0b870c6.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

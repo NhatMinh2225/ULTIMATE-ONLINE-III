@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dcyk773eh44p8"
+path="res://.godot/imported/Legendary_Age_[FadeOut].wav-2bad2733325b27b57f26c70c9e162b97.sample"
+
+[deps]
+
+source_file="res://RPG Starter Pack III/Legendary Age/Legendary_Age_[FadeOut].wav"
+dest_files=["res://.godot/imported/Legendary_Age_[FadeOut].wav-2bad2733325b27b57f26c70c9e162b97.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

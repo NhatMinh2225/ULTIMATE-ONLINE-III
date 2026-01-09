@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://clet0kjhyeynr"
+path="res://.godot/imported/Giant footsteps Sound Effect - Sound Effect Database.mp3-82e46db7885f26ab4f7ddf759f1b0be8.mp3str"
+
+[deps]
+
+source_file="res://Giant footsteps Sound Effect - Sound Effect Database.mp3"
+dest_files=["res://.godot/imported/Giant footsteps Sound Effect - Sound Effect Database.mp3-82e46db7885f26ab4f7ddf759f1b0be8.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

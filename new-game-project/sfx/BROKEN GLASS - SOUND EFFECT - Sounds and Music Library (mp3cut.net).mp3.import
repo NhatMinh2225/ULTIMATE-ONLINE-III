@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bjscy6bjsvuee"
+path="res://.godot/imported/BROKEN GLASS - SOUND EFFECT - Sounds and Music Library (mp3cut.net).mp3-399a19dfc02ff2b3ed20b686af98fbc5.mp3str"
+
+[deps]
+
+source_file="res://sfx/BROKEN GLASS - SOUND EFFECT - Sounds and Music Library (mp3cut.net).mp3"
+dest_files=["res://.godot/imported/BROKEN GLASS - SOUND EFFECT - Sounds and Music Library (mp3cut.net).mp3-399a19dfc02ff2b3ed20b686af98fbc5.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
